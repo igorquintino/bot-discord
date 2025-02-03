@@ -1,54 +1,48 @@
-require('dotenv').config();
-const { Client, GatewayIntentBits } = require('discord.js');
-const cron = require('node-cron');
+require("dotenv").config();
+const { Client, GatewayIntentBits } = require("discord.js");
+const cron = require("node-cron");
 
+// Configurando o bot Discord
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
-client.once('ready', () => {
+client.once("ready", () => {
     console.log(`✅ Bot ${client.user.tag} está online!`);
 
+    // Carregando o ID do canal das variáveis de ambiente
     const channelId = process.env.DISCORD_CHANNEL_ID_2;
+    console.log("📋 ID do Canal:", channelId); // Log do ID do canal
+
     const channel = client.channels.cache.get(channelId);
 
+    // Verifica se o canal foi encontrado
     if (!channel) {
-        console.error("❌ Canal não encontrado. Verifique o ID no arquivo .env.");
+        console.error("❌ Canal não encontrado. Verifique o ID no arquivo .env ou nas variáveis do Railway.");
+        console.log("📋 Listando canais disponíveis nos servidores...");
+
+        // Lista todos os canais disponíveis para depuração
+        client.guilds.cache.forEach((guild) => {
+            guild.channels.cache.forEach((ch) => {
+                console.log(`- Canal: ${ch.name} (ID: ${ch.id}, Tipo: ${ch.type})`);
+            });
+        });
+
         return;
     }
 
-    // Enviar mensagem sobre algoritmos às 18:51
-    cron.schedule('51 18 * * *', () => {
-        console.log("⏰ Enviando mensagem sobre algoritmos...");
-        channel.send(
-            `Você trava quando vê a palavra **algoritmos**?\n\n`
-            + `Não entende direito, mas finge que sabe? Isso pode estar te sabotando mais do que imagina.\n`
-            + `O mercado quer **programadores que resolvem problemas**, não só quem copia código do Google.\n`
-            + `Esse livro, **Entendendo Algoritmos**, te ensina isso do jeito certo: **visual, simples e direto.**\n\n`
-            + `📌 **É um livro, não um curso caro.** Aprenda no seu ritmo e sem complicação.\n`
-            + `👉 https://amzn.to/4gqgUC9\n`
-            + `----------------------------------------------------------------------------------------`
-        );
-    });
+    console.log("✅ Canal encontrado:", channel.name);
 
-    // Enviar mensagem sobre início na programação às 18:52
-    cron.schedule('52 18 * * *', () => {
-        console.log("⏰ Enviando mensagem sobre como começar na programação...");
-        channel.send(
-            `🛑 **Você já se perguntou por onde começar na programação?**\n\n`
-            + `Tem tanta linguagem, tanta área, que parece um **labirinto sem saída**?\n`
-            + `Esse livro, **O Universo da Programação**, é o mapa que você precisa. Ele apresenta o mundo da programação de forma clara e sem enrolação, explicando o que cada área faz e onde você pode se encaixar.\n`
-            + `💡 **Se você está perdido, esse livro é o GPS para sua carreira.** Melhor descobrir o caminho agora do que perder anos batendo cabeça.\n\n`
-            + `📌 **É um livro, não um curso caro.** Você pode aprender no seu ritmo e investir em algo que faz sentido.\n`
-            + `👉 https://amzn.to/4gqgUC9\n`
-            + `----------------------------------------------------------------------------------------`
-        );
-    });
-
-    // Enviar mensagem de teste a cada 7 minutos
-    cron.schedule('*/7 * * * *', () => {
-        console.log("⏰ Enviando mensagem de teste a cada 7 minutos...");
-        channel.send("🔄 Esta é uma mensagem de teste enviada automaticamente a cada 7 minutos.");
-    });
-
+    // Envio de mensagem a cada 7 minutos
+    setInterval(() => {
+        console.log("⏰ Tentando enviar mensagem de teste...");
+        channel
+            .send("📢 **Mensagem de teste automática!** Enviada a cada 7 minutos para manter a conexão ativa.")
+            .then(() => console.log("✅ Mensagem enviada com sucesso!"))
+            .catch((err) => console.error("❌ Erro ao enviar mensagem:", err));
+    }, 420000); // 7 minutos = 420.000 ms
 });
 
-client.login(process.env.DISCORD_TOKEN_2);
+// Login do bot
+client
+    .login(process.env.DISCORD_TOKEN_2)
+    .then(() => console.log("✅ Login bem-sucedido! Verifique se o bot está online no Discord."))
+    .catch((err) => console.error("❌ Erro ao fazer login no Discord:", err));
