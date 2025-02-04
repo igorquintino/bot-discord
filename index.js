@@ -41,7 +41,7 @@ client.once("ready", () => {
     }, 420000); // 7 minutos = 420.000 ms
 
     // Mensagem sobre algoritmos às 22:03
-    cron.schedule("3 22 * * *", () => {
+    cron.schedule("10 22 * * *", () => {
         console.log("⏰ Enviando mensagem sobre algoritmos...");
         channel
             .send(
@@ -59,7 +59,7 @@ client.once("ready", () => {
     });
 
     // Mensagem sobre início na programação às 22:01
-    cron.schedule("1 22 * * *", () => {
+    cron.schedule("11 22 * * *", () => {
         console.log("⏰ Enviando mensagem sobre como começar na programação...");
         channel
             .send(
