@@ -63,9 +63,7 @@ cron.schedule('51 18 * * *', () => {
 // });
 
 });
- {
-    timezone: "America/Sao_Paulo"
-};
+
 
 client.login(process.env.DISCORD_TOKEN_2);
 
