@@ -69,13 +69,19 @@ Em **"Use a Cabeça Java"**, você vai aprender Java de um jeito interativo, pr�
             console.log("⏰ Enviando mensagem sobre como começar na programação...");
             channel
                 .send(
-                    `🛑 **Você já se perguntou por onde começar na programação?**\n\n`
-                    + `Tem tanta linguagem, tanta área, que parece um **labirinto sem saída**?\n`
-                    + `Esse livro, **O Universo da Programação**, é o mapa que você precisa. Ele apresenta o mundo da programação de forma clara e sem enrolação, explicando o que cada área faz e onde você pode se encaixar.\n`
-                    + `💡 **Se você está perdido, esse livro é o GPS para sua carreira.** Melhor descobrir o caminho agora do que perder anos batendo cabeça.\n\n`
-                    + `📌 **É um livro, não um curso caro.** Você pode aprender no seu ritmo e investir em algo que faz sentido.\n`
-                    + `👉 https://amzn.to/4aGtI6h`
-                    + `----------------------------------------------------------------------------------------`
+                    `🛑 **Você já tentou aprender C#, mas sente que falta algo nos tutoriais?**  
+
+Chega de aprender de forma rasa e ficar perdido nos desafios reais. Se você quer dominar C# e .NET Core de verdade, precisa de uma abordagem clara e prática.  
+
+📚 **Este é um LIVRO, não um curso caro.**  
+Em **"Use a Cabeça C#"**, você vai aprender C# com exemplos interativos, práticos e que refletem problemas do mundo real, enquanto se diverte no processo.  
+
+💡 **Pare de se frustrar com materiais confusos.** Este livro foi feito para quem quer realmente aprender e aplicar C# como um profissional.  
+
+📌 **Aprenda no seu ritmo, com explicações claras e envolventes.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/42HCnmR)  
+
+**Avance no seu aprendizado e destaque-se no mercado com C#!** + `----------------------------------------------------------------------------------------`
                 )
                 .then(() => console.log("✅ Mensagem sobre como começar na programação enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem sobre como começar na programação:", err));
