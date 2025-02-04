@@ -40,14 +40,19 @@ client.once("ready", () => {
             console.log("⏰ Enviando mensagem sobre algoritmos...");
             channel
                 .send(
-                    `🛑 **Você realmente entende o que é necessário para desenvolver software de verdade?**\n\n`
-                    + `Chega de exemplos simplórios que não se aplicam ao mundo real. Você já sentiu que falta algo no que aprende sobre programação? Que os tutoriais deixam você na mão quando o assunto é **projetos reais**?\n\n`
-                    + `📚 **Este é um LIVRO, não um curso caro.**\n`
-                    + `Em **"Desenvolvimento Real de Software"**, você vai aprender os fundamentos de Java aplicados a **projetos reais**, com exemplos que refletem os desafios do mercado.\n\n`
-                    + `💡 **Chega de insegurança.** Este livro te prepara para resolver problemas reais e ser valorizado como um desenvolvedor completo.\n\n`
-                    + `📌 **Aprenda no seu ritmo, sem pressa e sem enrolação.**\n`
-                    + `👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)\n`
-                    + `----------------------------------------------------------------------------------------`
+                    `🛑 **Você já tentou aprender Java, mas os exemplos parecem não conectar com o mundo real?**  
+
+Chega de sentir que está decorando código sem entender o porquê. Se você já se frustrou com tutoriais que deixam lacunas no aprendizado, está na hora de mudar isso.  
+
+📚 **Este é um LIVRO, não um curso caro.**  
+Em **"Use a Cabeça Java"**, você vai aprender Java de um jeito interativo, prático e envolvente, com exemplos que conectam o conhecimento aos desafios do mercado real.  
+
+💡 **Deixe a insegurança de lado.** Este livro te ensina Java do jeito que o mercado valoriza: claro, prático e eficiente.  
+
+📌 **Aprenda no seu ritmo, de forma divertida e direta.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/411wyzl)  
+
+**Invista em você e avance na sua carreira como desenvolvedor Java.** + `----------------------------------------------------------------------------------------`
                 )
                 .then(() => console.log("✅ Mensagem sobre algoritmos enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem sobre algoritmos:", err));
