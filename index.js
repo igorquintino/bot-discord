@@ -75,7 +75,7 @@ Em **"A Psicologia Financeira"**, Morgan Housel explica como as decisões financ
 💡 **Não deixe suas emoções sabotarem seu futuro financeiro.** Entenda como suas escolhas podem impactar sua carreira e sua vida.  
 
 📌 **Invista em conhecimento financeiro de forma prática e acessível.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/415kY6A)  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4jItKi2)  
 
 **Domine sua mente, suas finanças e construa a base para crescer na carreira de programação.**  
 ----------------------------------------------------------------------------------------`
