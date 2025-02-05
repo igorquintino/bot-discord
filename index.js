@@ -62,6 +62,37 @@ Em **"Use a Cabeça Java"**, você vai aprender Java de um jeito interativo, pr�
         }
     );
 
+
+
+cron.schedule(
+        "16 16 * * *",
+        () => {
+            console.log("⏰ Enviando mensagem sobre algoritmos...");
+            channel
+                .send(
+`🛑 **Você entende o impacto da psicologia nas suas decisões financeiras?**  
+
+No mundo da programação, entender lógica é essencial, mas quem entende **dinheiro e comportamento** sai na frente. Se você acha que apenas ganhar bem vai resolver seus problemas financeiros, talvez esteja preso a um erro comum.  
+
+📚 **Este é um LIVRO, não um curso caro.**  
+Em **"A Psicologia Financeira"**, Morgan Housel explica como as decisões financeiras vão além de números – é sobre **comportamento, escolhas e mentalidade**. Ideal para programadores que querem controlar suas finanças e criar estabilidade para investir em si mesmos.  
+
+💡 **Não deixe suas emoções sabotarem seu futuro financeiro.** Entenda como suas escolhas podem impactar sua carreira e sua vida.  
+
+📌 **Invista em conhecimento financeiro de forma prática e acessível.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/415kY6A)
+
+**Domine sua mente, suas finanças e construa a base para crescer na carreira de programação.**
+                    ` + `----------------------------------------------------------------------------------------`
+                ).then(() => console.log("✅ Mensagem sobre algoritmos enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem sobre algoritmos:", err));
+        },
+        {
+            timezone: "America/Sao_Paulo",
+        }
+    );
+
+
     // Mensagem sobre início na programação às 22:01 (fuso horário Brasil)
     cron.schedule(
         "17 19 * * *",
