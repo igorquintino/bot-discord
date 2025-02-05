@@ -45,7 +45,7 @@ Em **"Use a Cabeça Java"**, você vai aprender Java de um jeito interativo, pr�
 💡 **Deixe a insegurança de lado.** Este livro te ensina Java do jeito que o mercado valoriza: claro, prático e eficiente.  
 
 📌 **Aprenda no seu ritmo, de forma divertida e direta.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/411wyzl)  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/3CE7yEW)  
 
 **Invista em você e avance na sua carreira como desenvolvedor Java.**  
 ----------------------------------------------------------------------------------------`
