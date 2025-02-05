@@ -10,7 +10,7 @@ client.once("ready", () => {
 
     // Carregando o ID do canal das variáveis de ambiente
     const channelId = process.env.DISCORD_CHANNEL_ID_2;
-    console.log("📋 ID do Canal:", channelId); // Log do ID do canal
+    console.log("📋 ID do Canal:", channelId);
 
     const channel = client.channels.cache.get(channelId);
 
@@ -18,26 +18,21 @@ client.once("ready", () => {
     if (!channel) {
         console.error("❌ Canal não encontrado. Verifique o ID no arquivo .env ou nas variáveis do Railway.");
         console.log("📋 Listando canais disponíveis nos servidores...");
-
-        // Lista todos os canais disponíveis para depuração
         client.guilds.cache.forEach((guild) => {
             guild.channels.cache.forEach((ch) => {
                 console.log(`- Canal: ${ch.name} (ID: ${ch.id}, Tipo: ${ch.type})`);
             });
         });
-
         return;
     }
 
     console.log("✅ Canal encontrado:", channel.name);
 
-    
-
-    // Mensagem sobre algoritmos às 22:03 (fuso horário Brasil)
+    // Mensagem sobre Java às 12:16 (fuso horário Brasil)
     cron.schedule(
         "16 12 * * *",
         () => {
-            console.log("⏰ Enviando mensagem sobre algoritmos...");
+            console.log("⏰ Enviando mensagem sobre Java...");
             channel
                 .send(
                     `🛑 **Você já tentou aprender Java, mas os exemplos parecem não conectar com o mundo real?**  
@@ -52,25 +47,25 @@ Em **"Use a Cabeça Java"**, você vai aprender Java de um jeito interativo, pr�
 📌 **Aprenda no seu ritmo, de forma divertida e direta.**  
 👉 [Garanta o seu agora na Amazon!](https://amzn.to/411wyzl)  
 
-**Invista em você e avance na sua carreira como desenvolvedor Java.**  `----------------------------------------------------------------------------------------`
+**Invista em você e avance na sua carreira como desenvolvedor Java.**  
+----------------------------------------------------------------------------------------`
                 )
-                .then(() => console.log("✅ Mensagem sobre algoritmos enviada com sucesso!"))
-                .catch((err) => console.error("❌ Erro ao enviar mensagem sobre algoritmos:", err));
+                .then(() => console.log("✅ Mensagem sobre Java enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem sobre Java:", err));
         },
         {
             timezone: "America/Sao_Paulo",
         }
     );
 
-
-
-cron.schedule(
+    // Mensagem sobre Psicologia Financeira às 16:16 (fuso horário Brasil)
+    cron.schedule(
         "16 16 * * *",
         () => {
-            console.log("⏰ Enviando mensagem sobre algoritmos...");
+            console.log("⏰ Enviando mensagem sobre Psicologia Financeira...");
             channel
                 .send(
-`🛑 **Você entende o impacto da psicologia nas suas decisões financeiras?**  
+                    `🛑 **Você entende o impacto da psicologia nas suas decisões financeiras?**  
 
 No mundo da programação, entender lógica é essencial, mas quem entende **dinheiro e comportamento** sai na frente. Se você acha que apenas ganhar bem vai resolver seus problemas financeiros, talvez esteja preso a um erro comum.  
 
@@ -80,24 +75,24 @@ Em **"A Psicologia Financeira"**, Morgan Housel explica como as decisões financ
 💡 **Não deixe suas emoções sabotarem seu futuro financeiro.** Entenda como suas escolhas podem impactar sua carreira e sua vida.  
 
 📌 **Invista em conhecimento financeiro de forma prática e acessível.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/415kY6A)
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/415kY6A)  
 
-**Domine sua mente, suas finanças e construa a base para crescer na carreira de programação.**
-                    `  `----------------------------------------------------------------------------------------`
-                ).then(() => console.log("✅ Mensagem sobre algoritmos enviada com sucesso!"))
-                .catch((err) => console.error("❌ Erro ao enviar mensagem sobre algoritmos:", err));
+**Domine sua mente, suas finanças e construa a base para crescer na carreira de programação.**  
+----------------------------------------------------------------------------------------`
+                )
+                .then(() => console.log("✅ Mensagem sobre Psicologia Financeira enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem sobre Psicologia Financeira:", err));
         },
         {
             timezone: "America/Sao_Paulo",
         }
     );
 
-
-    // Mensagem sobre início na programação às 22:01 (fuso horário Brasil)
+    // Mensagem sobre C# às 19:17 (fuso horário Brasil)
     cron.schedule(
         "17 19 * * *",
         () => {
-            console.log("⏰ Enviando mensagem sobre como começar na programação...");
+            console.log("⏰ Enviando mensagem sobre C#...");
             channel
                 .send(
                     `🛑 **Você já tentou aprender C#, mas sente que falta algo nos tutoriais?**  
@@ -112,10 +107,11 @@ Em **"Use a Cabeça C#"**, você vai aprender C# com exemplos interativos, prát
 📌 **Aprenda no seu ritmo, com explicações claras e envolventes.**  
 👉 [Garanta o seu agora na Amazon!](https://amzn.to/42HCnmR)  
 
-**Avance no seu aprendizado e destaque-se no mercado com C#!**  `----------------------------------------------------------------------------------------`
+**Avance no seu aprendizado e destaque-se no mercado com C#!**  
+----------------------------------------------------------------------------------------`
                 )
-                .then(() => console.log("✅ Mensagem sobre como começar na programação enviada com sucesso!"))
-                .catch((err) => console.error("❌ Erro ao enviar mensagem sobre como começar na programação:", err));
+                .then(() => console.log("✅ Mensagem sobre C# enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem sobre C#:", err));
         },
         {
             timezone: "America/Sao_Paulo",
