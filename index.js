@@ -52,7 +52,7 @@ Em **"Use a Cabeça Java"**, você vai aprender Java de um jeito interativo, pr�
 📌 **Aprenda no seu ritmo, de forma divertida e direta.**  
 👉 [Garanta o seu agora na Amazon!](https://amzn.to/411wyzl)  
 
-**Invista em você e avance na sua carreira como desenvolvedor Java.** + `----------------------------------------------------------------------------------------`
+**Invista em você e avance na sua carreira como desenvolvedor Java.**  `----------------------------------------------------------------------------------------`
                 )
                 .then(() => console.log("✅ Mensagem sobre algoritmos enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem sobre algoritmos:", err));
@@ -83,7 +83,7 @@ Em **"A Psicologia Financeira"**, Morgan Housel explica como as decisões financ
 👉 [Garanta o seu agora na Amazon!](https://amzn.to/415kY6A)
 
 **Domine sua mente, suas finanças e construa a base para crescer na carreira de programação.**
-                    ` + `----------------------------------------------------------------------------------------`
+                    `  `----------------------------------------------------------------------------------------`
                 ).then(() => console.log("✅ Mensagem sobre algoritmos enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem sobre algoritmos:", err));
         },
@@ -112,7 +112,7 @@ Em **"Use a Cabeça C#"**, você vai aprender C# com exemplos interativos, prát
 📌 **Aprenda no seu ritmo, com explicações claras e envolventes.**  
 👉 [Garanta o seu agora na Amazon!](https://amzn.to/42HCnmR)  
 
-**Avance no seu aprendizado e destaque-se no mercado com C#!** + `----------------------------------------------------------------------------------------`
+**Avance no seu aprendizado e destaque-se no mercado com C#!**  `----------------------------------------------------------------------------------------`
                 )
                 .then(() => console.log("✅ Mensagem sobre como começar na programação enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem sobre como começar na programação:", err));
