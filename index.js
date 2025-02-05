@@ -105,7 +105,7 @@ Em **"Use a Cabeça C#"**, você vai aprender C# com exemplos interativos, prát
 💡 **Pare de se frustrar com materiais confusos.** Este livro foi feito para quem quer realmente aprender e aplicar C# como um profissional.  
 
 📌 **Aprenda no seu ritmo, com explicações claras e envolventes.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/42HCnmR)  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/3WMQN1m)  
 
 **Avance no seu aprendizado e destaque-se no mercado com C#!**  
 ----------------------------------------------------------------------------------------`
