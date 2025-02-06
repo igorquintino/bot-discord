@@ -33,8 +33,7 @@ client.once("ready", () => {
         "15 10 * * *",
         () => {
             console.log("⏰ Enviando mensagem sobre Java...");
-            channel
-                .send(
+            channel.send(
                     `🛑 **Você sabe o motivo pelo qual faz o que faz?**  
 
 Na programação, na liderança ou na vida, entender o "porquê" por trás de suas ações é o que separa os bons dos extraordinários. Mas quantas vezes você realmente se perguntou qual é o seu propósito?  
@@ -47,7 +46,7 @@ Em **"Comece pelo Porquê"**, Simon Sinek revela como grandes líderes e profiss
 📌 **Aprenda a inspirar, motivar e alcançar mais.**  
 👉 [Garanta o seu agora na Amazon!](https://amzn.to/42QrX4e)  
 
-**Transforme sua carreira e vida com clareza e propósito. Comece hoje!**)
+**Transforme sua carreira e vida com clareza e propósito. Comece hoje!**`)
                 .then(() => console.log("✅ Mensagem sobre Java enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem sobre Java:", err));
         },
@@ -63,8 +62,7 @@ Em **"Comece pelo Porquê"**, Simon Sinek revela como grandes líderes e profiss
         "16 12 * * *",
         () => {
             console.log("⏰ Enviando mensagem sobre Java...");
-            channel
-                .send(
+            channel.send(
                     `🛑 **Você acha que precisa de uma faculdade para se tornar um programador profissional?**  
 
 Muitos acreditam que só conseguem uma carreira em programação com um diploma caro, mas isso não é verdade. A jornada de um **programador autodidata** é desafiadora, mas totalmente possível com o guia certo.  
@@ -77,7 +75,7 @@ Em **"Programador Autodidata"**, Cory Althoff oferece o caminho definitivo para 
 📌 **Aprenda no seu ritmo, com um plano claro e eficiente.**  
 👉 [Garanta o seu agora na Amazon!](https://amzn.to/3EqF1mR)  
 
-**Comece hoje sua jornada para se tornar um programador profissional e dominar o mercado!** )
+**Comece hoje sua jornada para se tornar um programador profissional e dominar o mercado!** `)
                 .then(() => console.log("✅ Mensagem sobre Java enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem sobre Java:", err));
         },
@@ -91,8 +89,7 @@ Em **"Programador Autodidata"**, Cory Althoff oferece o caminho definitivo para 
         "16 16 * * *",
         () => {
             console.log("⏰ Enviando mensagem sobre Psicologia Financeira...");
-            channel
-                .send(
+            channel.send(
                     `🛑 **Você sente que bancos de dados são um mistério impossível de desvendar?**  
 
 SQL é a base para quem trabalha com dados, mas muitos ainda se sentem perdidos. Se você precisa aprender a **consultar, manipular e entender bancos de dados**, este é o guia perfeito para começar.  
@@ -105,7 +102,7 @@ Em **"Introdução à Linguagem SQL"**, Thomas Nield traz uma abordagem prática
 📌 **Aprenda no seu ritmo, com exemplos práticos e reais.**  
 👉 [Garanta o seu agora na Amazon!](https://amzn.to/3CDkP0B)  
 
-**Pare de evitar SQL. Comece agora e domine bancos de dados de uma vez por todas!** )
+**Pare de evitar SQL. Comece agora e domine bancos de dados de uma vez por todas!**` )
                 .then(() => console.log("✅ Mensagem sobre Psicologia Financeira enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem sobre Psicologia Financeira:", err));
         },
@@ -119,8 +116,7 @@ Em **"Introdução à Linguagem SQL"**, Thomas Nield traz uma abordagem prática
         "17 19 * * *",
         () => {
             console.log("⏰ Enviando mensagem sobre C#...");
-            channel
-                .send(
+            channel.send(
                     `🛑 **Você sente que falta algo para alcançar alta performance e resultados reais na sua vida?**  
 
 Ser um programador ou profissional de tecnologia exige mais do que habilidades técnicas – exige **autoresponsabilidade**. Chega de culpar o mercado, o chefe ou as circunstâncias. Está na hora de assumir o controle do seu destino.  
@@ -133,7 +129,7 @@ Em **"O Poder da Autorresponsabilidade"**, Paulo Vieira apresenta ferramentas pr
 📌 **Aplique na sua rotina e veja os resultados.**  
 👉 [Garanta o seu agora na Amazon!](https://amzn.to/4jQgiZB)  
 
-**Invista em você, assuma a responsabilidade e veja sua carreira decolar.** )
+**Invista em você, assuma a responsabilidade e veja sua carreira decolar.** `)
                 .then(() => console.log("✅ Mensagem sobre C# enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem sobre C#:", err));
         },
