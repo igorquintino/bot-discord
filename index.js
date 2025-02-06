@@ -35,21 +35,19 @@ client.once("ready", () => {
             console.log("⏰ Enviando mensagem sobre Java...");
             channel
                 .send(
-                    `🛑 **Você já tentou aprender Java, mas os exemplos parecem não conectar com o mundo real?**  
+                    `🛑 **Você acha que precisa de uma faculdade para se tornar um programador profissional?**  
 
-Chega de sentir que está decorando código sem entender o porquê. Se você já se frustrou com tutoriais que deixam lacunas no aprendizado, está na hora de mudar isso.  
+Muitos acreditam que só conseguem uma carreira em programação com um diploma caro, mas isso não é verdade. A jornada de um **programador autodidata** é desafiadora, mas totalmente possível com o guia certo.  
 
 📚 **Este é um LIVRO, não um curso caro.**  
-Em **"Use a Cabeça Java"**, você vai aprender Java de um jeito interativo, prático e envolvente, com exemplos que conectam o conhecimento aos desafios do mercado real.  
+Em **"Programador Autodidata"**, Cory Althoff oferece o caminho definitivo para quem quer aprender a programar sozinho, cobrindo desde os fundamentos até as práticas do mercado.  
 
-💡 **Deixe a insegurança de lado.** Este livro te ensina Java do jeito que o mercado valoriza: claro, prático e eficiente.  
+💡 **Sem enrolação, sem mitos.** Este livro é para quem está começando ou quer se profissionalizar, sem depender de anos de estudo formal.  
 
-📌 **Aprenda no seu ritmo, de forma divertida e direta.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/3CE7yEW)  
+📌 **Aprenda no seu ritmo, com um plano claro e eficiente.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/3EqF1mR)  
 
-**Invista em você e avance na sua carreira como desenvolvedor Java.**  
-----------------------------------------------------------------------------------------`
-                )
+**Comece hoje sua jornada para se tornar um programador profissional e dominar o mercado!** )
                 .then(() => console.log("✅ Mensagem sobre Java enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem sobre Java:", err));
         },
@@ -65,21 +63,19 @@ Em **"Use a Cabeça Java"**, você vai aprender Java de um jeito interativo, pr�
             console.log("⏰ Enviando mensagem sobre Psicologia Financeira...");
             channel
                 .send(
-                    `🛑 **Você entende o impacto da psicologia nas suas decisões financeiras?**  
+                    `🛑 **Você sente que bancos de dados são um mistério impossível de desvendar?**  
 
-No mundo da programação, entender lógica é essencial, mas quem entende **dinheiro e comportamento** sai na frente. Se você acha que apenas ganhar bem vai resolver seus problemas financeiros, talvez esteja preso a um erro comum.  
+SQL é a base para quem trabalha com dados, mas muitos ainda se sentem perdidos. Se você precisa aprender a **consultar, manipular e entender bancos de dados**, este é o guia perfeito para começar.  
 
 📚 **Este é um LIVRO, não um curso caro.**  
-Em **"A Psicologia Financeira"**, Morgan Housel explica como as decisões financeiras vão além de números – é sobre **comportamento, escolhas e mentalidade**. Ideal para programadores que querem controlar suas finanças e criar estabilidade para investir em si mesmos.  
+Em **"Introdução à Linguagem SQL"**, Thomas Nield traz uma abordagem prática e direta para iniciantes, explicando passo a passo como usar SQL no dia a dia.  
 
-💡 **Não deixe suas emoções sabotarem seu futuro financeiro.** Entenda como suas escolhas podem impactar sua carreira e sua vida.  
+💡 **Domine os fundamentos e abra portas no mercado.** Quer seja para desenvolvimento, análise ou ciência de dados, SQL é uma habilidade indispensável.  
 
-📌 **Invista em conhecimento financeiro de forma prática e acessível.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4jItKi2)  
+📌 **Aprenda no seu ritmo, com exemplos práticos e reais.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/3CDkP0B)  
 
-**Domine sua mente, suas finanças e construa a base para crescer na carreira de programação.**  
-----------------------------------------------------------------------------------------`
-                )
+**Pare de evitar SQL. Comece agora e domine bancos de dados de uma vez por todas!** )
                 .then(() => console.log("✅ Mensagem sobre Psicologia Financeira enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem sobre Psicologia Financeira:", err));
         },
@@ -95,21 +91,19 @@ Em **"A Psicologia Financeira"**, Morgan Housel explica como as decisões financ
             console.log("⏰ Enviando mensagem sobre C#...");
             channel
                 .send(
-                    `🛑 **Você já tentou aprender C#, mas sente que falta algo nos tutoriais?**  
+                    `🛑 **Você sente que falta algo para alcançar alta performance e resultados reais na sua vida?**  
 
-Chega de aprender de forma rasa e ficar perdido nos desafios reais. Se você quer dominar C# e .NET Core de verdade, precisa de uma abordagem clara e prática.  
+Ser um programador ou profissional de tecnologia exige mais do que habilidades técnicas – exige **autoresponsabilidade**. Chega de culpar o mercado, o chefe ou as circunstâncias. Está na hora de assumir o controle do seu destino.  
 
 📚 **Este é um LIVRO, não um curso caro.**  
-Em **"Use a Cabeça C#"**, você vai aprender C# com exemplos interativos, práticos e que refletem problemas do mundo real, enquanto se diverte no processo.  
+Em **"O Poder da Autorresponsabilidade"**, Paulo Vieira apresenta ferramentas práticas para você tomar as rédeas da sua carreira, melhorar sua produtividade e alcançar resultados extraordinários, mesmo em pouco tempo.  
 
-💡 **Pare de se frustrar com materiais confusos.** Este livro foi feito para quem quer realmente aprender e aplicar C# como um profissional.  
+💡 **Transforme sua mentalidade e destrave seu potencial.** Não importa o desafio, com a mentalidade certa, você vai conseguir superar.  
 
-📌 **Aprenda no seu ritmo, com explicações claras e envolventes.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/3WMQN1m)  
+📌 **Aplique na sua rotina e veja os resultados.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4jQgiZB)  
 
-**Avance no seu aprendizado e destaque-se no mercado com C#!**  
-----------------------------------------------------------------------------------------`
-                )
+**Invista em você, assuma a responsabilidade e veja sua carreira decolar.** )
                 .then(() => console.log("✅ Mensagem sobre C# enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem sobre C#:", err));
         },
