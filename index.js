@@ -28,6 +28,36 @@ client.once("ready", () => {
 
     console.log("✅ Canal encontrado:", channel.name);
 
+
+    cron.schedule(
+        "15 10 * * *",
+        () => {
+            console.log("⏰ Enviando mensagem sobre Java...");
+            channel
+                .send(
+                    `🛑 **Você sabe o motivo pelo qual faz o que faz?**  
+
+Na programação, na liderança ou na vida, entender o "porquê" por trás de suas ações é o que separa os bons dos extraordinários. Mas quantas vezes você realmente se perguntou qual é o seu propósito?  
+
+📚 **Este é um LIVRO, não um curso caro.**  
+Em **"Comece pelo Porquê"**, Simon Sinek revela como grandes líderes e profissionais de sucesso encontram motivação e inspiram os outros começando com um propósito claro.  
+
+💡 **Descubra como alinhar suas ações ao que realmente importa.** Seja para liderar equipes ou definir seus objetivos na programação, este livro vai mudar sua visão sobre liderança e propósito.  
+
+📌 **Aprenda a inspirar, motivar e alcançar mais.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/42QrX4e)  
+
+**Transforme sua carreira e vida com clareza e propósito. Comece hoje!**)
+                .then(() => console.log("✅ Mensagem sobre Java enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem sobre Java:", err));
+        },
+        {
+            timezone: "America/Sao_Paulo",
+        }
+    );
+
+
+
     // Mensagem sobre Java às 12:16 (fuso horário Brasil)
     cron.schedule(
         "16 12 * * *",
