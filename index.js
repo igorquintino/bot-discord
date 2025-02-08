@@ -30,113 +30,383 @@ client.once("ready", () => {
 
 
     cron.schedule(
-        "15 10 * * *",
+        "15 18 * * 1",
         () => {
-            console.log("⏰ Enviando mensagem sobre Java...");
+            console.log("⏰ Enviando mensagem livro profissional 1  ");
             channel.send(
-                    `🛑 **Você sabe o motivo pelo qual faz o que faz?**  
+                    `🛑 **Você está preparado para enfrentar os limites da mente e do corpo?**  
 
-Na programação, na liderança ou na vida, entender o "porquê" por trás de suas ações é o que separa os bons dos extraordinários. Mas quantas vezes você realmente se perguntou qual é o seu propósito?  
+David Goggins é a prova viva de que o impossível é apenas uma barreira mental. Se você já sentiu que não consegue superar desafios na sua carreira, nos estudos ou na vida, este livro é o empurrão que você precisa.  
 
 📚 **Este é um LIVRO, não um curso caro.**  
-Em **"Comece pelo Porquê"**, Simon Sinek revela como grandes líderes e profissionais de sucesso encontram motivação e inspiram os outros começando com um propósito claro.  
+Em **"Nada Pode Me Ferir"**, Goggins compartilha como transformou uma infância traumática e desafios extremos em força e resiliência, tornando-se um dos homens mais duros do mundo.  
 
-💡 **Descubra como alinhar suas ações ao que realmente importa.** Seja para liderar equipes ou definir seus objetivos na programação, este livro vai mudar sua visão sobre liderança e propósito.  
+💡 **Aprenda a dominar sua mente e superar seus limites.** As lições deste livro vão te ajudar a enfrentar obstáculos com coragem e disciplina, seja no mundo da programação ou em qualquer outro campo.  
 
-📌 **Aprenda a inspirar, motivar e alcançar mais.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/42QrX4e)  
+📌 **Inspire-se e transforme suas fraquezas em força.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
 
-**Transforme sua carreira e vida com clareza e propósito. Comece hoje!**`)
-                .then(() => console.log("✅ Mensagem sobre Java enviada com sucesso!"))
-                .catch((err) => console.error("❌ Erro ao enviar mensagem sobre Java:", err));
+**Nada pode te parar, exceto você mesmo. Comece agora!**`)
+                .then(() => console.log("✅ Mensagem enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
         },
         {
             timezone: "America/Sao_Paulo",
         }
     );
 
-
-
-    // Mensagem sobre Java às 12:16 (fuso horário Brasil)
     cron.schedule(
-        "16 12 * * *",
+        "15 18 * * 2",
         () => {
-            console.log("⏰ Enviando mensagem sobre Java...");
+            console.log("⏰ Enviando mensagem livro profissional 2");
             channel.send(
-                    `🛑 **Você acha que precisa de uma faculdade para se tornar um programador profissional?**  
+                    `🛑 **Você está construindo riqueza ou apenas sobrevivendo?**  
 
-Muitos acreditam que só conseguem uma carreira em programação com um diploma caro, mas isso não é verdade. A jornada de um **programador autodidata** é desafiadora, mas totalmente possível com o guia certo.  
+No mundo atual, muitos lutam para juntar dinheiro, mas poucos entendem os princípios básicos para criar riqueza de forma consistente. Está na hora de aprender com um clássico que atravessou gerações.  
 
 📚 **Este é um LIVRO, não um curso caro.**  
-Em **"Programador Autodidata"**, Cory Althoff oferece o caminho definitivo para quem quer aprender a programar sozinho, cobrindo desde os fundamentos até as práticas do mercado.  
+Em **"O Homem Mais Rico da Babilônia"**, George S. Clason revela lições atemporais sobre como economizar, investir e alcançar independência financeira, usando histórias simples e poderosas.  
 
-💡 **Sem enrolação, sem mitos.** Este livro é para quem está começando ou quer se profissionalizar, sem depender de anos de estudo formal.  
+💡 **Descubra os segredos da prosperidade que funcionam até hoje.** Ideal para quem busca estabilidade financeira enquanto investe em seus sonhos, seja na programação, estudos ou negócios.  
 
-📌 **Aprenda no seu ritmo, com um plano claro e eficiente.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/3EqF1mR)  
+📌 **Transforme sua relação com dinheiro. Comece com pequenos passos e colha grandes resultados.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
 
-**Comece hoje sua jornada para se tornar um programador profissional e dominar o mercado!** `)
-                .then(() => console.log("✅ Mensagem sobre Java enviada com sucesso!"))
-                .catch((err) => console.error("❌ Erro ao enviar mensagem sobre Java:", err));
+**A sabedoria para criar riqueza está ao seu alcance. Aproveite!** `)
+                .then(() => console.log("✅ Mensagem enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
         },
         {
             timezone: "America/Sao_Paulo",
         }
     );
 
-    // Mensagem sobre Psicologia Financeira às 16:16 (fuso horário Brasil)
     cron.schedule(
-        "16 16 * * *",
+        "15 18 * * 3",
         () => {
-            console.log("⏰ Enviando mensagem sobre Psicologia Financeira...");
+            console.log("⏰ Enviando mensagem livro profissional 3");
             channel.send(
-                    `🛑 **Você sente que bancos de dados são um mistério impossível de desvendar?**  
+                    `🛑 **Você já parou para pensar no impacto da gratidão na sua vida?**  
 
-SQL é a base para quem trabalha com dados, mas muitos ainda se sentem perdidos. Se você precisa aprender a **consultar, manipular e entender bancos de dados**, este é o guia perfeito para começar.  
+Em um mundo cheio de reclamações e negatividade, encontrar motivos para agradecer pode parecer difícil. Mas e se mudar a sua perspectiva pudesse transformar seus dias?  
 
 📚 **Este é um LIVRO, não um curso caro.**  
-Em **"Introdução à Linguagem SQL"**, Thomas Nield traz uma abordagem prática e direta para iniciantes, explicando passo a passo como usar SQL no dia a dia.  
+Em **"#Um Dia Sem Reclamar"**, Davi Lago e Marcelo Galuppo mostram como a gratidão pode trazer mais felicidade, melhorar relacionamentos e até aumentar sua produtividade.  
 
-💡 **Domine os fundamentos e abra portas no mercado.** Quer seja para desenvolvimento, análise ou ciência de dados, SQL é uma habilidade indispensável.  
+💡 **Descubra como a gratidão pode mudar sua mentalidade e resultados.** Este é o guia prático para quem quer viver com mais leveza e positividade.  
 
-📌 **Aprenda no seu ritmo, com exemplos práticos e reais.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/3CDkP0B)  
+📌 **Comece com pequenos passos e veja grandes transformações.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
 
-**Pare de evitar SQL. Comece agora e domine bancos de dados de uma vez por todas!**` )
-                .then(() => console.log("✅ Mensagem sobre Psicologia Financeira enviada com sucesso!"))
-                .catch((err) => console.error("❌ Erro ao enviar mensagem sobre Psicologia Financeira:", err));
+**Adote a gratidão como hábito e veja como isso pode transformar sua vida!**`)
+                .then(() => console.log("✅ Mensagem enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
         },
         {
             timezone: "America/Sao_Paulo",
         }
     );
 
-    // Mensagem sobre C# às 19:17 (fuso horário Brasil)
     cron.schedule(
-        "17 19 * * *",
+        "15 18 * * 4",
         () => {
-            console.log("⏰ Enviando mensagem sobre C#...");
+            console.log("⏰ Enviando mensagem livro profissional 4");
             channel.send(
-                    `🛑 **Você sente que falta algo para alcançar alta performance e resultados reais na sua vida?**  
+                    `🛑 **Você vive preso à aprovação dos outros?**  
 
-Ser um programador ou profissional de tecnologia exige mais do que habilidades técnicas – exige **autoresponsabilidade**. Chega de culpar o mercado, o chefe ou as circunstâncias. Está na hora de assumir o controle do seu destino.  
+Muitas vezes, deixamos de seguir nossos sonhos e valores com medo de desagradar ou decepcionar as pessoas ao nosso redor. Mas o que aconteceria se você tivesse coragem de ser quem realmente é?  
 
 📚 **Este é um LIVRO, não um curso caro.**  
-Em **"O Poder da Autorresponsabilidade"**, Paulo Vieira apresenta ferramentas práticas para você tomar as rédeas da sua carreira, melhorar sua produtividade e alcançar resultados extraordinários, mesmo em pouco tempo.  
+Em **"A Coragem de Não Agradar"**, Ichiro Kishimi e Fumitake Koga mostram como se libertar da opinião alheia, superar suas limitações e viver uma vida autêntica.  
 
-💡 **Transforme sua mentalidade e destrave seu potencial.** Não importa o desafio, com a mentalidade certa, você vai conseguir superar.  
+💡 **Descubra como tomar o controle da sua vida.** Este livro vai te ajudar a enxergar que agradar a todos não é necessário para ser feliz e bem-sucedido.  
 
-📌 **Aplique na sua rotina e veja os resultados.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4jQgiZB)  
+📌 **Encontre a liberdade para ser quem você realmente é.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
 
-**Invista em você, assuma a responsabilidade e veja sua carreira decolar.** `)
-                .then(() => console.log("✅ Mensagem sobre C# enviada com sucesso!"))
-                .catch((err) => console.error("❌ Erro ao enviar mensagem sobre C#:", err));
+**Liberte-se, viva com autenticidade e descubra a felicidade verdadeira.**`)
+                .then(() => console.log("✅ Mensagem enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
         },
         {
             timezone: "America/Sao_Paulo",
         }
     );
+
+    cron.schedule(
+        "15 18 * * 5",
+        () => {
+            console.log("⏰ Enviando mensagem livro profissional 5 ");
+            channel.send(
+                    `🛑 **Você entende o impacto das suas escolhas financeiras no seu futuro?**  
+
+Dinheiro não é apenas números, é comportamento. Se você sente que está lutando para equilibrar suas finanças ou investir no que realmente importa, talvez esteja ignorando o fator mais importante: a psicologia por trás do dinheiro.  
+
+📚 **Este é um LIVRO, não um curso caro.**  
+Em **"A Psicologia Financeira"**, Morgan Housel explora como decisões simples e atitudes conscientes podem transformar sua relação com o dinheiro, trazendo lições atemporais sobre fortuna, ganância e felicidade.  
+
+💡 **Descubra como dominar suas finanças sem precisar de fórmulas mágicas.** Este livro mostra que riqueza é menos sobre renda e mais sobre escolhas inteligentes.  
+
+📌 **Entenda e aplique conceitos práticos que realmente funcionam.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+
+**Transforme sua mentalidade financeira e comece a construir a vida que você merece.**`)
+                .then(() => console.log("✅ Mensagem enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
+        },
+        {
+            timezone: "America/Sao_Paulo",
+        }
+    );
+
+    cron.schedule(
+        "15 18 * * 6",
+        () => {
+            console.log("⏰ Enviando mensagem livro profissional 6");
+            channel.send(
+                    `🛑 **Você entende o comportamento por trás das suas decisões financeiras?**  
+
+Dinheiro não é apenas sobre números. É sobre como pensamos, sentimos e agimos com ele. Se você já se perguntou por que não consegue guardar ou investir mais, este livro é o que você precisa.  
+
+📚 **Este é um LIVRO, não um curso caro.**  
+Em **"A Psicologia Financeira"**, Morgan Housel revela como pequenas decisões comportamentais podem fazer a diferença entre o sucesso e o fracasso financeiro.  
+
+💡 **Aprenda a dominar suas finanças com atitudes simples e práticas.** Descubra como evitar os erros mais comuns e construir riqueza de maneira consistente.  
+
+📌 **Transforme sua relação com dinheiro para alcançar a liberdade financeira.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+
+**Controle seu dinheiro antes que ele controle você. Comece hoje!**`)
+                .then(() => console.log("✅ Mensagem enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
+        },
+        {
+            timezone: "America/Sao_Paulo",
+        }
+    );
+
+    cron.schedule(
+        "15 18 * * 0",
+        () => {
+            console.log("⏰ Enviando mensagem livro profissional 7 ");
+            channel.send(
+                    `🛑 **Você sabe como construir conexões reais e impactar as pessoas ao seu redor?**  
+
+No trabalho, nos estudos ou na vida pessoal, suas habilidades de comunicação podem ser a diferença entre o sucesso e o fracasso. E se você pudesse aprender os segredos das pessoas mais influentes do mundo?  
+
+📚 **Este é um LIVRO, não um curso caro.**  
+Em **"Como Fazer Amigos e Influenciar Pessoas"**, Dale Carnegie ensina princípios simples e eficazes para se conectar com qualquer pessoa, criar relacionamentos significativos e se tornar uma pessoa mais influente e admirada.  
+
+💡 **Transforme suas interações e conquiste aliados em qualquer ambiente.** Desde negociações até amizades, os ensinamentos deste clássico são atemporais e aplicáveis a qualquer situação.  
+
+📌 **Invista em habilidades que fazem a diferença.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+
+**Aprenda a influenciar positivamente e alcance seus objetivos com confiança. Comece hoje!**`)
+                .then(() => console.log("✅ Mensagem enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
+        },
+        {
+            timezone: "America/Sao_Paulo",
+        }
+    );
+
+    cron.schedule(
+        "15 12 * * 1",
+        () => {
+            console.log("⏰ Enviando mensagem livro programação 1 ");
+            channel.send(
+                    `🛑 **Quer dar os primeiros passos na programação, mas não sabe por onde começar?**  
+
+Não importa sua idade ou experiência, este é o ponto de partida perfeito. **"Meu Primeiro Livro de Programação"** apresenta conceitos básicos de maneira divertida e acessível, com linguagens como Python, Basic e Scratch.  
+
+📚 **Ideal para iniciantes.**  
+Este livro é um guia para quem quer aprender do zero, com exercícios práticos e explicações simples para criar seus primeiros projetos.  
+
+💡 **Transforme curiosidade em habilidade.**  
+Você vai descobrir como a programação pode ser criativa e empolgante, mesmo se nunca tiver escrito uma linha de código antes.  
+
+📌 **A programação pode ser fácil e divertida, e este livro prova isso!**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+
+**Comece hoje e descubra o mundo da programação de forma simples e prática.**
+`)
+                .then(() => console.log("✅ Mensagem enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
+        },
+        {
+            timezone: "America/Sao_Paulo",
+        }
+    );
+
+
+    cron.schedule(
+        "15 12 * * 1",
+        () => {
+            console.log("⏰ Enviando mensagem livro programação 2 ");
+            channel.send(
+                    `🛑 **Você quer aprender a projetar sistemas de Machine Learning prontos para produção?**  
+
+Esqueça conceitos vagos e soluções que não funcionam na prática. É hora de aprender o processo real, interativo e eficiente para levar modelos ao mercado.  
+
+📚 **Este é um LIVRO, não um curso genérico.**  
+Com **"Projetando Sistemas de Machine Learning"**, você vai entender desde a arquitetura até a implementação de sistemas de Machine Learning prontos para produção, com insights que só especialistas compartilham.  
+
+💡 **Destaque-se em um dos campos mais inovadores da tecnologia.**  
+Este livro ensina o que é realmente necessário para criar soluções que impactam o mundo real.  
+
+📌 **Aprenda no seu ritmo e aplique o conhecimento direto no seu trabalho ou projetos pessoais.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+
+**Comece hoje e transforme seu conhecimento em Machine Learning em resultados reais.**
+`)
+                .then(() => console.log("✅ Mensagem enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
+        },
+        {
+            timezone: "America/Sao_Paulo",
+        }
+    );
+
+    cron.schedule(
+        "15 12 * * 1",
+        () => {
+            console.log("⏰ Enviando mensagem livro programação 3");
+            channel.send(
+                    `🛑 **Você já se perguntou como criar software que realmente funcione no mundo real?**  
+
+Chega de exemplos acadêmicos que não se aplicam à prática! Este é o momento de aprender a desenvolver soluções reais e eficazes.  
+
+📚 **Este é um LIVRO, não um curso caro.**  
+Em **"Desenvolvimento Real de Software"**, você aprenderá os fundamentos do Java aplicados em projetos reais, entendendo como resolver problemas do dia a dia da programação com técnicas claras e diretas.  
+
+💡 **Desbloqueie seu potencial como desenvolvedor.** Com exemplos detalhados e práticos, este livro é o guia que você precisa para se destacar no mercado.  
+
+📌 **Aprenda no seu ritmo e conquiste o conhecimento que faz a diferença.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+
+**Dê o próximo passo na sua jornada de programador. Comece agora e veja a diferença!**
+`)
+                .then(() => console.log("✅ Mensagem enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
+        },
+        {
+            timezone: "America/Sao_Paulo",
+        }
+    );
+
+
+    cron.schedule(
+        "15 12 * * 1",
+        () => {
+            console.log("⏰ Enviando mensagem livro programação 4 ");
+            channel.send(
+                    `🛑 **Você já se perguntou o que diferencia um programador comum de um excelente?**  
+
+A resposta está no código que ele escreve. Um código limpo não é apenas funcional, ele é elegante, fácil de entender e manter. Mas como alcançar esse nível de excelência?  
+
+📚 **Este é um LIVRO, não um curso caro.**  
+Em **"Código Limpo"**, Robert C. Martin apresenta práticas essenciais para escrever códigos que não apenas funcionam, mas que são claros, eficientes e preparados para evoluir com os projetos.  
+
+💡 **Aprenda como evitar os erros mais comuns e criar soluções duradouras.** Este livro é um guia indispensável para qualquer desenvolvedor que deseja se destacar no mercado.  
+
+📌 **Transforme seu código e sua carreira com as melhores práticas da engenharia de software.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+
+**Escreva código que fale por você. Comece agora e eleve o seu nível profissional!**
+`)
+                .then(() => console.log("✅ Mensagem enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
+        },
+        {
+            timezone: "America/Sao_Paulo",
+        }
+    );
+
+
+    cron.schedule(
+        "15 12 * * 1",
+        () => {
+            console.log("⏰ Enviando mensagem livro programação 5 ");
+            channel.send(
+                    `🛑 **Você trava ao ouvir a palavra 'algoritmos'?**  
+
+Muitos acham que entender algoritmos é algo complicado, reservado apenas para gênios da programação. Mas e se fosse possível aprender de um jeito simples e visual?  
+
+📚 **Este é um LIVRO, não um curso caro.**  
+Em **"Entendendo Algoritmos"**, Aditya Bhargava apresenta os conceitos mais importantes de algoritmos usando ilustrações fáceis de entender, tornando o aprendizado acessível para programadores e curiosos de qualquer nível.  
+
+💡 **Desvende os mistérios dos algoritmos e aplique na prática.** Este livro é perfeito para quem quer dominar o que realmente importa na programação e se destacar no mercado.  
+
+📌 **Aprenda no seu ritmo, sem pressão e com clareza.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+
+**Chegou a hora de transformar complexidade em conhecimento. Comece hoje!**
+`)
+                .then(() => console.log("✅ Mensagem enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
+        },
+        {
+            timezone: "America/Sao_Paulo",
+        }
+    );
+
+    cron.schedule(
+        "15 12 * * 1",
+        () => {
+            console.log("⏰ Enviando mensagem livro programação 6 ");
+            channel.send(
+                    `🛑 **Você trava quando ouve falar em lógica de programação e algoritmos?**  
+
+Se você está começando na programação e sente que a lógica e os algoritmos são um desafio, este livro é para você. Ele vai te ensinar a base que todo programador precisa dominar, usando uma das linguagens mais populares: **JavaScript**.  
+
+📚 **Este é um LIVRO, não um curso caro.**  
+Em **"Lógica de Programação e Algoritmos com JavaScript"**, você vai aprender conceitos fundamentais de programação de forma prática, com exemplos e exercícios que tornam o aprendizado leve e eficiente.  
+
+💡 **Domine a lógica de programação e crie soluções inteligentes.** Este livro é o primeiro passo para quem quer ingressar no mundo do desenvolvimento com confiança.  
+
+📌 **Aprenda no seu ritmo, sem complicações.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+
+**Construa sua base sólida em programação e alcance seus objetivos. Comece hoje!**
+`)
+                .then(() => console.log("✅ Mensagem enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
+        },
+        {
+            timezone: "America/Sao_Paulo",
+        }
+    );
+
+
+    cron.schedule(
+        "15 12 * * 1",
+        () => {
+            console.log("⏰ Enviando mensagem livro programação 0 ");
+            channel.send(
+                    `🛑 **Você acha que precisa de um diploma para ser um programador profissional?**  
+
+Muitas pessoas acreditam que apenas com anos de estudo formal é possível se destacar na programação. Mas e se você pudesse aprender sozinho e construir uma carreira de sucesso?  
+
+📚 **Este é um LIVRO, não um curso caro.**  
+Em **"Programador Autodidata"**, Cory Althoff oferece um guia prático e direto para quem deseja aprender a programar do zero e se tornar um profissional respeitado no mercado.  
+
+💡 **Descubra como aprender no seu ritmo e dominar as habilidades mais valorizadas.** Este livro vai te guiar desde os fundamentos até as práticas mais avançadas da programação.  
+
+📌 **Dê o primeiro passo para transformar sua vida e carreira.**  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+
+**A carreira dos seus sonhos está ao seu alcance. Comece agora!**
+`)
+                .then(() => console.log("✅ Mensagem enviada com sucesso!"))
+                .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
+        },
+        {
+            timezone: "America/Sao_Paulo",
+        }
+    );
+
+
 });
 
 // Login do bot
