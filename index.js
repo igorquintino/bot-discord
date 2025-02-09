@@ -34,19 +34,15 @@ client.once("ready", () => {
         () => {
             console.log("⏰ Enviando mensagem livro profissional 1  ");
             channel.send(
-                    `🛑 **Você está preparado para enfrentar os limites da mente e do corpo?**  
-
-David Goggins é a prova viva de que o impossível é apenas uma barreira mental. Se você já sentiu que não consegue superar desafios na sua carreira, nos estudos ou na vida, este livro é o empurrão que você precisa.  
-
-📚 **Este é um LIVRO, não um curso caro.**  
-Em **"Nada Pode Me Ferir"**, Goggins compartilha como transformou uma infância traumática e desafios extremos em força e resiliência, tornando-se um dos homens mais duros do mundo.  
-
-💡 **Aprenda a dominar sua mente e superar seus limites.** As lições deste livro vão te ajudar a enfrentar obstáculos com coragem e disciplina, seja no mundo da programação ou em qualquer outro campo.  
-
-📌 **Inspire-se e transforme suas fraquezas em força.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/415qLc9)  
-
-**Nada pode te parar, exceto você mesmo. Comece agora!**`)
+                    `🛑 **Você está preparado para superar os desafios da programação e dominar seus limites?**\n\n` +
+  `Ser programador iniciante pode parecer um caminho cheio de barreiras: erros de lógica, código que não funciona, e aquela sensação de que o problema é maior do que você. Mas saiba que isso é apenas um obstáculo mental.\n\n` +
+  `📚 **Este é um LIVRO, não um curso caro.**\n` +
+  `Em **"Nada Pode Me Ferir"**, David Goggins ensina como enfrentar e superar as dificuldades mais extremas, transformando a dor em resiliência. Essas lições se aplicam perfeitamente ao mundo da programação, onde persistência e coragem são fundamentais.\n\n` +
+  `💡 **Aprenda a dominar sua mente e transformar desafios em aprendizado.**\n` +
+  `Este livro vai te ajudar a encarar os bugs, a lógica complexa e até mesmo aquele código que parece impossível de entender, com a confiança de quem sabe que nenhum problema é grande demais.\n\n` +
+  `📌 **Transforme sua jornada como programador iniciante em uma história de superação.**\n` +
+  `👉 [Garanta o seu agora na Amazon!](https://amzn.to/415qLc9)\n\n` +
+  `**A única coisa que pode te parar é você mesmo. Não desista, programe o seu futuro!**`)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
         },
@@ -60,19 +56,19 @@ Em **"Nada Pode Me Ferir"**, Goggins compartilha como transformou uma infância 
         () => {
             console.log("⏰ Enviando mensagem livro profissional 2");
             channel.send(
-                    `🛑 **Você está construindo riqueza ou apenas sobrevivendo?**  
+                    `🛑 **Você está construindo riqueza na sua carreira de programação ou apenas apagando incêndios?**
 
-No mundo atual, muitos lutam para juntar dinheiro, mas poucos entendem os princípios básicos para criar riqueza de forma consistente. Está na hora de aprender com um clássico que atravessou gerações.  
+No mundo da tecnologia, muitos aprendem linguagens de programação, mas poucos entendem os princípios básicos para construir uma carreira sólida e estável. Está na hora de aprender com um clássico que atravessou gerações.
 
-📚 **Este é um LIVRO, não um curso caro.**  
-Em **"O Homem Mais Rico da Babilônia"**, George S. Clason revela lições atemporais sobre como economizar, investir e alcançar independência financeira, usando histórias simples e poderosas.  
+📚 **Este é um LIVRO, não um curso caro.**
+Em **"O Homem Mais Rico da Babilônia"**, George S. Clason revela lições atemporais sobre como economizar, investir e alcançar independência financeira, usando histórias simples e poderosas. E o que isso tem a ver com programação? Tudo.
 
-💡 **Descubra os segredos da prosperidade que funcionam até hoje.** Ideal para quem busca estabilidade financeira enquanto investe em seus sonhos, seja na programação, estudos ou negócios.  
+💡 **Descubra os segredos para investir no seu conhecimento.** Dedique-se aos fundamentos da programação, invista em projetos pessoais e construa um portfólio que gere retorno a longo prazo.
 
-📌 **Transforme sua relação com dinheiro. Comece com pequenos passos e colha grandes resultados.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/40TWw6y)  
+📌 **Transforme sua relação com sua carreira. Comece com pequenos passos, como aprender algoritmos e resolver problemas práticos, e veja grandes resultados em oportunidades e salários.**
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/40TWw6y)
 
-**A sabedoria para criar riqueza está ao seu alcance. Aproveite!** `)
+**A sabedoria para criar uma carreira de sucesso está ao seu alcance. Aproveite!** `)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
         },
@@ -86,19 +82,19 @@ Em **"O Homem Mais Rico da Babilônia"**, George S. Clason revela lições atemp
         () => {
             console.log("⏰ Enviando mensagem livro profissional 3");
             channel.send(
-                    `🛑 **Você já parou para pensar no impacto da gratidão na sua vida?**  
+                    `🛑 **Você já parou para pensar no impacto da gratidão na sua jornada como programador?**
 
-Em um mundo cheio de reclamações e negatividade, encontrar motivos para agradecer pode parecer difícil. Mas e se mudar a sua perspectiva pudesse transformar seus dias?  
+Em um mundo cheio de desafios e frustrações, como bugs intermináveis e código que não funciona, encontrar motivos para agradecer pode parecer difícil. Mas e se mudar sua perspectiva pudesse transformar sua carreira e aprendizado?
 
-📚 **Este é um LIVRO, não um curso caro.**  
-Em **"#Um Dia Sem Reclamar"**, Davi Lago e Marcelo Galuppo mostram como a gratidão pode trazer mais felicidade, melhorar relacionamentos e até aumentar sua produtividade.  
+📚 **Este é um LIVRO, não um curso caro.**
+Em **"#Um Dia Sem Reclamar"**, Davi Lago e Marcelo Galuppo mostram como a gratidão pode trazer mais felicidade, melhorar relacionamentos e até aumentar sua produtividade. E na programação, a gratidão por pequenos avanços pode ser a chave para evoluir.
 
-💡 **Descubra como a gratidão pode mudar sua mentalidade e resultados.** Este é o guia prático para quem quer viver com mais leveza e positividade.  
+💡 **Descubra como a gratidão pode mudar sua mentalidade e resultados.** Seja grato pelo aprendizado, mesmo que ele venha de erros e desafios, e veja como isso pode acelerar sua evolução na carreira.
 
-📌 **Comece com pequenos passos e veja grandes transformações.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/3QcjpgA)  
+📌 **Comece com pequenos passos, como comemorar cada código que funciona, e veja grandes transformações na sua motivação e desempenho.**
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/3QcjpgA)
 
-**Adote a gratidão como hábito e veja como isso pode transformar sua vida!**`)
+**Adote a gratidão como hábito e veja como isso pode transformar sua jornada na programação!***`)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
         },
@@ -112,19 +108,19 @@ Em **"#Um Dia Sem Reclamar"**, Davi Lago e Marcelo Galuppo mostram como a gratid
         () => {
             console.log("⏰ Enviando mensagem livro profissional 4");
             channel.send(
-                    `🛑 **Você vive preso à aprovação dos outros?**  
+                    `🛑 **Você vive preso à validação do seu código pelos outros?**
 
-Muitas vezes, deixamos de seguir nossos sonhos e valores com medo de desagradar ou decepcionar as pessoas ao nosso redor. Mas o que aconteceria se você tivesse coragem de ser quem realmente é?  
+Como programadores iniciantes, é comum ficarmos dependentes da aprovação dos colegas ou até de tutoriais para avançar. Mas o que aconteceria se você tivesse a coragem de escrever, errar e aprender por conta própria?
 
-📚 **Este é um LIVRO, não um curso caro.**  
-Em **"A Coragem de Não Agradar"**, Ichiro Kishimi e Fumitake Koga mostram como se libertar da opinião alheia, superar suas limitações e viver uma vida autêntica.  
+📚 **Este é um LIVRO, não um curso caro.**
+Em **"A Coragem de Não Agradar"**, Ichiro Kishimi e Fumitake Koga mostram como se libertar da opinião alheia e tomar controle do próprio caminho. Assim como na programação, você precisa superar o medo de críticas e confiar no seu aprendizado.
 
-💡 **Descubra como tomar o controle da sua vida.** Este livro vai te ajudar a enxergar que agradar a todos não é necessário para ser feliz e bem-sucedido.  
+💡 **Descubra como tomar o controle da sua evolução como programador.** Este livro te ajuda a entender que você não precisa agradar a todos ou escrever o código perfeito para crescer.
 
-📌 **Encontre a liberdade para ser quem você realmente é.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4gDXWIi)  
+📌 **Encontre a liberdade de aprender, errar e se desenvolver no seu ritmo.**
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4gDXWIi)
 
-**Liberte-se, viva com autenticidade e descubra a felicidade verdadeira.**`)
+**Liberte-se do medo de errar e progrida com autenticidade e confiança!**`)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
         },
@@ -138,19 +134,19 @@ Em **"A Coragem de Não Agradar"**, Ichiro Kishimi e Fumitake Koga mostram como 
         () => {
             console.log("⏰ Enviando mensagem livro profissional 5 ");
             channel.send(
-                    `🛑 **Você entende o impacto das suas escolhas financeiras no seu futuro?**  
+                    `🛑 **Você entende o impacto das suas escolhas no seu futuro como programador?**
 
-Dinheiro não é apenas números, é comportamento. Se você sente que está lutando para equilibrar suas finanças ou investir no que realmente importa, talvez esteja ignorando o fator mais importante: a psicologia por trás do dinheiro.  
+Programação não é apenas sobre escrever códigos, é comportamento e estratégia. Se você sente que está perdido no meio de frameworks e linguagens ou não sabe qual próximo passo tomar, talvez esteja ignorando o fator mais importante: a mentalidade por trás do aprendizado.
 
-📚 **Este é um LIVRO, não um curso caro.**  
-Em **"A Psicologia Financeira"**, Morgan Housel explora como decisões simples e atitudes conscientes podem transformar sua relação com o dinheiro, trazendo lições atemporais sobre fortuna, ganância e felicidade.  
+📚 **Este é um LIVRO, não um curso caro.**
+Em **"A Psicologia Financeira"**, Morgan Housel revela como decisões simples e atitudes conscientes podem transformar sua relação com o dinheiro. E, assim como na programação, é preciso foco e escolhas inteligentes para evoluir.
 
-💡 **Descubra como dominar suas finanças sem precisar de fórmulas mágicas.** Este livro mostra que riqueza é menos sobre renda e mais sobre escolhas inteligentes.  
+💡 **Descubra como dominar sua jornada de aprendizado sem fórmulas mágicas.** Este livro mostra que sucesso é menos sobre recursos e mais sobre como você os utiliza.
 
-📌 **Entenda e aplique conceitos práticos que realmente funcionam.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hJt8HH)  
+📌 **Entenda e aplique conceitos que podem acelerar seu crescimento como programador.**
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hJt8HH)
 
-**Transforme sua mentalidade financeira e comece a construir a vida que você merece.**`)
+**Transforme sua mentalidade e comece a construir a carreira que você merece.**`)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
         },
@@ -164,19 +160,19 @@ Em **"A Psicologia Financeira"**, Morgan Housel explora como decisões simples e
         () => {
             console.log("⏰ Enviando mensagem livro profissional 6");
             channel.send(
-                    `🛑 **Você entende o comportamento por trás das suas decisões financeiras?**  
+                    `🛑 **Você sabe como construir conexões reais no mundo da programação?**
 
-Dinheiro não é apenas sobre números. É sobre como pensamos, sentimos e agimos com ele. Se você já se perguntou por que não consegue guardar ou investir mais, este livro é o que você precisa.  
+Seja no trabalho, na comunidade de desenvolvedores ou em entrevistas, suas habilidades de comunicação podem ser o diferencial para conquistar oportunidades. E se você pudesse aprender os segredos para se destacar e criar impacto?
 
-📚 **Este é um LIVRO, não um curso caro.**  
-Em **"A Psicologia Financeira"**, Morgan Housel revela como pequenas decisões comportamentais podem fazer a diferença entre o sucesso e o fracasso financeiro.  
+📚 **Este é um LIVRO, não um curso caro.**
+Em **"Como Fazer Amigos e Influenciar Pessoas"**, Dale Carnegie ensina princípios atemporais que ajudam a criar conexões genuínas, melhorar a colaboração em equipe e se tornar um profissional admirado.
 
-💡 **Aprenda a dominar suas finanças com atitudes simples e práticas.** Descubra como evitar os erros mais comuns e construir riqueza de maneira consistente.  
+💡 **Transforme suas interações no ambiente de tecnologia.** Desde entrevistas até projetos colaborativos, os ensinamentos deste clássico podem te ajudar a se destacar no mercado.
 
-📌 **Transforme sua relação com dinheiro para alcançar a liberdade financeira.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+📌 **Invista em habilidades que farão a diferença na sua carreira.**
+👉 [Garanta o seu agora na Amazon!](https:)
 
-**Controle seu dinheiro antes que ele controle você. Comece hoje!**`)
+**Aprenda a influenciar positivamente no mundo da programação e alcance seus objetivos. Comece agora!**`)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
         },
@@ -190,19 +186,19 @@ Em **"A Psicologia Financeira"**, Morgan Housel revela como pequenas decisões c
         () => {
             console.log("⏰ Enviando mensagem livro profissional 7 ");
             channel.send(
-                    `🛑 **Você sabe como construir conexões reais e impactar as pessoas ao seu redor?**  
+                    `🛑 **Você sente que explicar seu código ou projetos é um desafio intransponível?**
 
-No trabalho, nos estudos ou na vida pessoal, suas habilidades de comunicação podem ser a diferença entre o sucesso e o fracasso. E se você pudesse aprender os segredos das pessoas mais influentes do mundo?  
+Muitos desenvolvedores travam ao apresentar ideias ou defender projetos, perdendo oportunidades de se destacar em reuniões, entrevistas ou eventos. Mas e se você pudesse aprender a comunicar suas ideias técnicas com clareza e confiança?
 
-📚 **Este é um LIVRO, não um curso caro.**  
-Em **"Como Fazer Amigos e Influenciar Pessoas"**, Dale Carnegie ensina princípios simples e eficazes para se conectar com qualquer pessoa, criar relacionamentos significativos e se tornar uma pessoa mais influente e admirada.  
+📚 **Este é um LIVRO, não um curso caro.**
+Em **"Como Falar em Público e Encantar as Pessoas"**, Dale Carnegie ensina técnicas comprovadas para superar o medo, apresentar suas ideias com impacto e ganhar a atenção de qualquer audiência.
 
-💡 **Transforme suas interações e conquiste aliados em qualquer ambiente.** Desde negociações até amizades, os ensinamentos deste clássico são atemporais e aplicáveis a qualquer situação.  
+💡 **Transforme sua comunicação técnica e conquiste mais oportunidades.** Seja explicando um código, liderando reuniões ou participando de hackathons, este livro é um guia essencial.
 
-📌 **Invista em habilidades que fazem a diferença.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4jNzW8t)  
+📌 **Invista em si mesmo e aprenda a se destacar no mundo da tecnologia.**
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4jNzW8t)
 
-**Aprenda a influenciar positivamente e alcance seus objetivos com confiança. Comece hoje!**`)
+**Sua mensagem técnica importa. Descubra como comunicá-la com impacto!**`)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
         },
