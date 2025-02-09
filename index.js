@@ -44,7 +44,7 @@ Em **"Nada Pode Me Ferir"**, Goggins compartilha como transformou uma infância 
 💡 **Aprenda a dominar sua mente e superar seus limites.** As lições deste livro vão te ajudar a enfrentar obstáculos com coragem e disciplina, seja no mundo da programação ou em qualquer outro campo.  
 
 📌 **Inspire-se e transforme suas fraquezas em força.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/415qLc9)  
 
 **Nada pode te parar, exceto você mesmo. Comece agora!**`)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
@@ -70,7 +70,7 @@ Em **"O Homem Mais Rico da Babilônia"**, George S. Clason revela lições atemp
 💡 **Descubra os segredos da prosperidade que funcionam até hoje.** Ideal para quem busca estabilidade financeira enquanto investe em seus sonhos, seja na programação, estudos ou negócios.  
 
 📌 **Transforme sua relação com dinheiro. Comece com pequenos passos e colha grandes resultados.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/40TWw6y)  
 
 **A sabedoria para criar riqueza está ao seu alcance. Aproveite!** `)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
@@ -96,7 +96,7 @@ Em **"#Um Dia Sem Reclamar"**, Davi Lago e Marcelo Galuppo mostram como a gratid
 💡 **Descubra como a gratidão pode mudar sua mentalidade e resultados.** Este é o guia prático para quem quer viver com mais leveza e positividade.  
 
 📌 **Comece com pequenos passos e veja grandes transformações.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/3QcjpgA)  
 
 **Adote a gratidão como hábito e veja como isso pode transformar sua vida!**`)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
@@ -122,7 +122,7 @@ Em **"A Coragem de Não Agradar"**, Ichiro Kishimi e Fumitake Koga mostram como 
 💡 **Descubra como tomar o controle da sua vida.** Este livro vai te ajudar a enxergar que agradar a todos não é necessário para ser feliz e bem-sucedido.  
 
 📌 **Encontre a liberdade para ser quem você realmente é.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4gDXWIi)  
 
 **Liberte-se, viva com autenticidade e descubra a felicidade verdadeira.**`)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
@@ -148,7 +148,7 @@ Em **"A Psicologia Financeira"**, Morgan Housel explora como decisões simples e
 💡 **Descubra como dominar suas finanças sem precisar de fórmulas mágicas.** Este livro mostra que riqueza é menos sobre renda e mais sobre escolhas inteligentes.  
 
 📌 **Entenda e aplique conceitos práticos que realmente funcionam.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hJt8HH)  
 
 **Transforme sua mentalidade financeira e comece a construir a vida que você merece.**`)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
@@ -200,7 +200,7 @@ Em **"Como Fazer Amigos e Influenciar Pessoas"**, Dale Carnegie ensina princípi
 💡 **Transforme suas interações e conquiste aliados em qualquer ambiente.** Desde negociações até amizades, os ensinamentos deste clássico são atemporais e aplicáveis a qualquer situação.  
 
 📌 **Invista em habilidades que fazem a diferença.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4jNzW8t)  
 
 **Aprenda a influenciar positivamente e alcance seus objetivos com confiança. Comece hoje!**`)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
@@ -227,7 +227,7 @@ Este livro é um guia para quem quer aprender do zero, com exercícios práticos
 Você vai descobrir como a programação pode ser criativa e empolgante, mesmo se nunca tiver escrito uma linha de código antes.  
 
 📌 **A programação pode ser fácil e divertida, e este livro prova isso!**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4jNzY05)  
 
 **Comece hoje e descubra o mundo da programação de forma simples e prática.**
 `)
@@ -256,7 +256,7 @@ Com **"Projetando Sistemas de Machine Learning"**, você vai entender desde a ar
 Este livro ensina o que é realmente necessário para criar soluções que impactam o mundo real.  
 
 📌 **Aprenda no seu ritmo e aplique o conhecimento direto no seu trabalho ou projetos pessoais.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4gAJuAG)  
 
 **Comece hoje e transforme seu conhecimento em Machine Learning em resultados reais.**
 `)
@@ -283,7 +283,7 @@ Em **"Desenvolvimento Real de Software"**, você aprenderá os fundamentos do Ja
 💡 **Desbloqueie seu potencial como desenvolvedor.** Com exemplos detalhados e práticos, este livro é o guia que você precisa para se destacar no mercado.  
 
 📌 **Aprenda no seu ritmo e conquiste o conhecimento que faz a diferença.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4155ZJA)  
 
 **Dê o próximo passo na sua jornada de programador. Comece agora e veja a diferença!**
 `)
@@ -311,7 +311,7 @@ Em **"Código Limpo"**, Robert C. Martin apresenta práticas essenciais para esc
 💡 **Aprenda como evitar os erros mais comuns e criar soluções duradouras.** Este livro é um guia indispensável para qualquer desenvolvedor que deseja se destacar no mercado.  
 
 📌 **Transforme seu código e sua carreira com as melhores práticas da engenharia de software.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4gtB66c)  
 
 **Escreva código que fale por você. Comece agora e eleve o seu nível profissional!**
 `)
@@ -339,7 +339,7 @@ Em **"Entendendo Algoritmos"**, Aditya Bhargava apresenta os conceitos mais impo
 💡 **Desvende os mistérios dos algoritmos e aplique na prática.** Este livro é perfeito para quem quer dominar o que realmente importa na programação e se destacar no mercado.  
 
 📌 **Aprenda no seu ritmo, sem pressão e com clareza.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4gxCTqL)  
 
 **Chegou a hora de transformar complexidade em conhecimento. Comece hoje!**
 `)
@@ -366,7 +366,7 @@ Em **"Lógica de Programação e Algoritmos com JavaScript"**, você vai aprende
 💡 **Domine a lógica de programação e crie soluções inteligentes.** Este livro é o primeiro passo para quem quer ingressar no mundo do desenvolvimento com confiança.  
 
 📌 **Aprenda no seu ritmo, sem complicações.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4aPzBOk)  
 
 **Construa sua base sólida em programação e alcance seus objetivos. Comece hoje!**
 `)
@@ -394,7 +394,7 @@ Em **"Programador Autodidata"**, Cory Althoff oferece um guia prático e direto 
 💡 **Descubra como aprender no seu ritmo e dominar as habilidades mais valorizadas.** Este livro vai te guiar desde os fundamentos até as práticas mais avançadas da programação.  
 
 📌 **Dê o primeiro passo para transformar sua vida e carreira.**  
-👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hmx2Gb)  
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hRDpBd)  
 
 **A carreira dos seus sonhos está ao seu alcance. Comece agora!**
 `)
