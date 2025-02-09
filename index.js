@@ -170,7 +170,7 @@ Em **"Como Fazer Amigos e Influenciar Pessoas"**, Dale Carnegie ensina princípi
 💡 **Transforme suas interações no ambiente de tecnologia.** Desde entrevistas até projetos colaborativos, os ensinamentos deste clássico podem te ajudar a se destacar no mercado.
 
 📌 **Invista em habilidades que farão a diferença na sua carreira.**
-👉 [Garanta o seu agora na Amazon!](https:)
+👉 [Garanta o seu agora na Amazon!](https://amzn.to/41587ky)
 
 **Aprenda a influenciar positivamente no mundo da programação e alcance seus objetivos. Comece agora!**`)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
