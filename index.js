@@ -237,7 +237,7 @@ Você vai descobrir como a programação pode ser criativa e empolgante, mesmo s
 
 
     cron.schedule(
-        "15 12 * * 1",
+        "15 12 * * 2",
         () => {
             console.log("⏰ Enviando mensagem livro programação 2 ");
             channel.send(
@@ -265,7 +265,7 @@ Este livro ensina o que é realmente necessário para criar soluções que impac
     );
 
     cron.schedule(
-        "15 12 * * 1",
+        "15 12 * * 3",
         () => {
             console.log("⏰ Enviando mensagem livro programação 3");
             channel.send(
@@ -293,7 +293,7 @@ Em **"Desenvolvimento Real de Software"**, você aprenderá os fundamentos do Ja
 
 
     cron.schedule(
-        "15 12 * * 1",
+        "15 12 * * 4",
         () => {
             console.log("⏰ Enviando mensagem livro programação 4 ");
             channel.send(
@@ -321,7 +321,7 @@ Em **"Código Limpo"**, Robert C. Martin apresenta práticas essenciais para esc
 
 
     cron.schedule(
-        "15 12 * * 1",
+        "15 12 * * 5",
         () => {
             console.log("⏰ Enviando mensagem livro programação 5 ");
             channel.send(
@@ -348,7 +348,7 @@ Em **"Entendendo Algoritmos"**, Aditya Bhargava apresenta os conceitos mais impo
     );
 
     cron.schedule(
-        "15 12 * * 1",
+        "15 12 * * 6",
         () => {
             console.log("⏰ Enviando mensagem livro programação 6 ");
             channel.send(
@@ -376,7 +376,7 @@ Em **"Lógica de Programação e Algoritmos com JavaScript"**, você vai aprende
 
 
     cron.schedule(
-        "15 12 * * 1",
+        "15 12 * * 0",
         () => {
             console.log("⏰ Enviando mensagem livro programação 0 ");
             channel.send(
