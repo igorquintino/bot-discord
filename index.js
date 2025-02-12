@@ -42,7 +42,7 @@ client.once("ready", () => {
   `Este livro vai te ajudar a encarar os bugs, a lógica complexa e até mesmo aquele código que parece impossível de entender, com a confiança de quem sabe que nenhum problema é grande demais.\n\n` +
   `📌 **Transforme sua jornada como programador iniciante em uma história de superação.**\n` +
   `👉 [Garanta o seu agora na Amazon!](https://amzn.to/3EJjw0B)\n\n` +
-  `**A única coisa que pode te parar é você mesmo. Não desista, programe o seu futuro!**`)
+  `**A única coisa que pode te parar é você mesmo. Não desista, programe o seu futuro!**(https://cdn.discordapp.com/attachments/1338990204870201436/1339000900844523593/2e071cc5430ede828ee7d67ef40bcdeb.jpg?ex=67ad2144&is=67abcfc4&hm=70ebae4b47660526ef573e10ba43988348b5f9826f63b65a98ab7bde7c61b4b6&)`)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
         },
