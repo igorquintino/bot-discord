@@ -94,7 +94,7 @@ Em **"#Um Dia Sem Reclamar"**, Davi Lago e Marcelo Galuppo mostram como a gratid
 📌 **Comece com pequenos passos, como comemorar cada código que funciona, e veja grandes transformações na sua motivação e desempenho.**
 👉 [Garanta o seu agora na Amazon!](https://amzn.to/41cbXIW)
 
-**Adote a gratidão como hábito e veja como isso pode transformar sua jornada na programação!***`)
+**Adote a gratidão como hábito e veja como isso pode transformar sua jornada na programação!***(https://cdn.discordapp.com/attachments/1338990204870201436/1339001130625011884/ff4802eaf403a340da1654c421b4cf36.jpg?ex=67ad217a&is=67abcffa&hm=a2871fd8d0c0fbd75fa2166c165ea8be7e848b3ef13d2940e6fa1fe70c78fe66&)`)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
         },
