@@ -337,7 +337,7 @@ Em **"Entendendo Algoritmos"**, Aditya Bhargava apresenta os conceitos mais impo
 📌 **Aprenda no seu ritmo, sem pressão e com clareza.**  
 👉 [Garanta o seu agora na Amazon!](https://amzn.to/4aRTlBb)  
 
-**Chegou a hora de transformar complexidade em conhecimento. Comece hoje!**
+**Chegou a hora de transformar complexidade em conhecimento. Comece hoje!**(https://cdn.discordapp.com/attachments/1338990204870201436/1339001375228432474/378e2614925f2102da1374eb86b5618a.jpg?ex=67ad21b5&is=67abd035&hm=3d0d33db38acf56a5d5fa8be72e73bdb0a78fd7e3365e86f9fcb32245c174cd8&)
 `)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
