@@ -120,7 +120,7 @@ Em **"A Coragem de Não Agradar"**, Ichiro Kishimi e Fumitake Koga mostram como 
 📌 **Encontre a liberdade de aprender, errar e se desenvolver no seu ritmo.**
 👉 [Garanta o seu agora na Amazon!](https://amzn.to/42SJpFA)
 
-**Liberte-se do medo de errar e progrida com autenticidade e confiança!**`)
+**Liberte-se do medo de errar e progrida com autenticidade e confiança!**(https://cdn.discordapp.com/attachments/1338990204870201436/1339001240557846579/b64110965fc784d955efd84ecabc0f4f.jpg?ex=67ad2195&is=67abd015&hm=ec4dd047e7d2f608d675c65831352a316db805f79e1aa53687e3387055b46e11&)`)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
         },
