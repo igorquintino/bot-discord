@@ -52,7 +52,7 @@ client.once("ready", () => {
     );
 
     cron.schedule(
-        "15 18 * * 2",
+        "5 22 * * 2",
         () => {
             console.log("⏰ Enviando mensagem livro profissional 2");
             channel.send(
@@ -68,7 +68,7 @@ Em **"O Homem Mais Rico da Babilônia"**, George S. Clason revela lições atemp
 📌 **Transforme sua relação com sua carreira. Comece com pequenos passos, como aprender algoritmos e resolver problemas práticos, e veja grandes resultados em oportunidades e salários.**
 👉 [Garanta o seu agora na Amazon!](https://amzn.to/3WYYy4p)
 
-**A sabedoria para criar uma carreira de sucesso está ao seu alcance. Aproveite!** `)
+**A sabedoria para criar uma carreira de sucesso está ao seu alcance. Aproveite!** (https://cdn.discordapp.com/attachments/1338990204870201436/1339001041366024193/99d43d0914919e0b30dfba93c21829fa.jpg?ex=67ad2165&is=67abcfe5&hm=023d13b31601dc3eba62f129b9c97af2ed1bef7ef44d0cbbce3d1215f2052726&)`)
                 .then(() => console.log("✅ Mensagem enviada com sucesso!"))
                 .catch((err) => console.error("❌ Erro ao enviar mensagem", err));
         },
