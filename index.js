@@ -437,19 +437,7 @@ const mensagensAgendadas = [
             https://www.cursoemvideo.com/curso/javascript/ 
 
             **Domine JavaScript e abra portas para o desenvolvimento web. Comece hoje!**`
-    },
-
-    {
-        canal: process.env.CANAL_CURSOS,
-        horario: "15 20 * * 1", // Segunda-feira às 18:15
-        mensagem: 
-    },
-    {
-        canal: process.env.CANAL_CURSOS,
-        horario: "15 20 * * 1", // Segunda-feira às 18:15
-        mensagem: 
-    },
-
+    }
     
     
 ];
