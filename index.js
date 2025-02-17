@@ -437,6 +437,86 @@ const mensagensAgendadas = [
             https://www.cursoemvideo.com/curso/javascript/ 
 
             **Domine JavaScript e abra portas para o desenvolvimento web. Comece hoje!**`
+    },
+{
+        canal: process.env.CANAL_VAGA,
+        horario: "15 13 * * 3", // Segunda-feira às 18:15
+        mensagem: ` 🚀 **Oportunidade para Analista de Segurança Cibernética!**  
+
+📍 **Formato:** *100% Remoto*  
+💼 **Nível:** *Júnior / Pleno*  
+🕒 **Jornada:** *Full-Time (CLT)*  
+💰 **Faixa Salarial:** *Negociável*  
+
+## 📋 **Requisitos:**  
+✅ **Conhecimento em Segurança Cibernética**: Práticas e ferramentas de segurança.  
+✅ **Experiência com Ferramentas de Segurança**: Firewalls, sistemas de detecção de intrusão e software antivírus.  
+✅ **Habilidades de Programação**: Conhecimento em *Python* para automação de tarefas de segurança.  
+✅ **Trabalho em Equipe**: Capacidade de colaboração e autonomia.  
+✅ **Resolução de Problemas**: Habilidade analítica e capacidade de abstração.  
+
+## 🏆 **Diferenciais:**  
+⭐ **Experiência em Ambientes de Nuvem** (*GCP*).  
+⭐ **Familiaridade com Ferramentas de Monitoramento e Pentest** (*Metasploit, Burp Suite*).  
+⭐ **Experiência com Frameworks de Pentest** (*PTES*).  
+⭐ **Certificações**: *CISSP, CISM, OSCP, CEH* (opcional).  
+
+## 🚀 **Benefícios:**  
+✅ **Auxílio viagem**  
+✅ **Vale refeição**  
+✅ **Assistência médica**  
+✅ **Adiantamento de salário**  
+✅ **Assistência odontológica**  
+✅ **Auxílio home-office**  
+✅ **Creditas**  
+✅ **TotalPass**  
+
+📩 **Candidatar-se no link:**  
+🔗 [Inscrição](https://coodesh.com/jobs/analista-de-seguranca-cibernetica-181035967)  
+
+✨ *Essa vaga foi compartilhada pela comunidade **Quintino Coders!***  
+🚀 Junte-se ao nosso Discord para mais oportunidades e conteúdos exclusivos!
+`
+    },
+{
+        canal: process.env.CANAL_VAGA,
+        horario: "15 14 * * 3", // Segunda-feira às 18:15
+        mensagem: `
+🚀 **Oportunidade para Analista de Segurança Cibernética!**  
+
+📍 **Formato:** *100% Remoto*  
+💼 **Nível:** *Júnior / Pleno*  
+🕒 **Jornada:** *Full-Time (CLT)*  
+💰 **Faixa Salarial:** *Negociável*  
+
+## 📋 **Requisitos:**  
+✅ **Conhecimento em Segurança Cibernética**: Práticas e ferramentas de segurança.  
+✅ **Experiência com Ferramentas de Segurança**: Firewalls, sistemas de detecção de intrusão e software antivírus.  
+✅ **Habilidades de Programação**: Conhecimento em *Python* para automação de tarefas de segurança.  
+✅ **Trabalho em Equipe**: Capacidade de colaboração e autonomia.  
+✅ **Resolução de Problemas**: Habilidade analítica e capacidade de abstração.  
+
+## 🏆 **Diferenciais:**  
+⭐ **Experiência em Ambientes de Nuvem** (*GCP*).  
+⭐ **Familiaridade com Ferramentas de Monitoramento e Pentest** (*Metasploit, Burp Suite*).  
+⭐ **Experiência com Frameworks de Pentest** (*PTES*).  
+⭐ **Certificações**: *CISSP, CISM, OSCP, CEH* (opcional).  
+
+## 🚀 **Benefícios:**  
+✅ **Auxílio viagem**  
+✅ **Vale refeição**  
+✅ **Assistência médica**  
+✅ **Adiantamento de salário**  
+✅ **Assistência odontológica**  
+✅ **Auxílio home-office**  
+✅ **Creditas**  
+✅ **TotalPass**  
+
+📩 **Candidatar-se no link:**  
+🔗 [Inscrição](https://coodesh.com/jobs/analista-de-seguranca-cibernetica-181035967)  
+
+✨ *Essa vaga foi compartilhada pela comunidade **Quintino Coders!***  
+🚀 Junte-se ao nosso Discord para mais oportunidades e conteúdos exclusivos! `
     }
     
     
