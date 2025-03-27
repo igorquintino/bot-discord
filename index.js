@@ -8,69 +8,67 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBit
 const mensagensAgendadas = [
     {
         canal: process.env.CANAL_LIVRO,
-        horario: "15 18 * * 1", // Segunda-feira às 18:15
-        mensagem: `🛑 **Você está preparado para superar os desafios da programação e dominar seus limites?**\n\n` +
-          `Ser programador iniciante pode parecer um caminho cheio de barreiras: erros de lógica, código que não funciona, e aquela sensação de que o problema é maior do que você. Mas saiba que isso é apenas um obstáculo mental.\n\n` +
-          `📚 **Este é um LIVRO, não um curso caro.**\n` +
-          `Em **"Nada Pode Me Ferir"**, David Goggins ensina como enfrentar e superar as dificuldades mais extremas, transformando a dor em resiliência. Essas lições se aplicam perfeitamente ao mundo da programação, onde persistência e coragem são fundamentais.\n\n` +
-          `💡 **Aprenda a dominar sua mente e transformar desafios em aprendizado.**\n` +
-          `Este livro vai te ajudar a encarar os bugs, a lógica complexa e até mesmo aquele código que parece impossível de entender, com a confiança de quem sabe que nenhum problema é grande demais.\n\n` +
-          `📌 **Transforme sua jornada como programador iniciante em uma história de superação.**\n` +
-          `👉 [Garanta o seu agora na Amazon!](https://amzn.to/3EJjw0B)\n\n` +
-          `**A única coisa que pode te parar é você mesmo. Não desista, programe o seu futuro!**(https://cdn.discordapp.com/attachments/1338990204870201436/1339000900844523593/2e071cc5430ede828ee7d67ef40bcdeb.jpg?ex=67ad2144&is=67abcfc4&hm=70ebae4b47660526ef573e10ba43988348b5f9826f63b65a98ab7bde7c61b4b6&)`
+        horario: "15 8 * * 1", // Segunda-feira às 8:15
+        mensagem: `🧠 **A maior barreira na programação está na sua mente.**  
+
+Programar envolve errar, quebrar a cabeça e tentar de novo. Mas sua mente pode ser treinada para aguentar tudo isso com resiliência.  
+
+📘 *Nada Pode Me Ferir*  
+Autor: David Goggins  
+
+💡 Um livro sobre como superar limites, dominar o desconforto e transformar dor em foco. A força mental que você precisa para encarar qualquer código.  
+
+🔗 [Garanta o seu agora na Amazon!](https://amzn.to/3EJjw0B)  
+🖼️ Imagem: https://cdn.discordapp.com/attachments/1338990204870201436/1339000900844523593/2e071cc5430ede828ee7d67ef40bcdeb.jpg?ex=67ad2144&is=67abcfc4&hm=70ebae4b47660526ef573e10ba43988348b5f9826f63b65a98ab7bde7c61b4b6&  
+
+**Você é o único obstáculo entre você e seu futuro.**`
     },
 
     {
         canal: process.env.CANAL_LIVRO,
-        horario: "15 18 * * 2", // Segunda-feira às 18:15
-        mensagem: `🛑 **Você está construindo riqueza na sua carreira de programação ou apenas apagando incêndios?**
+        horario: "15 8 * * 2", // Segunda-feira às 8:15
+        mensagem: `💰 **Você está construindo uma carreira ou só apagando incêndios?**  
 
-        No mundo da tecnologia, muitos aprendem linguagens de programação, mas poucos entendem os princípios básicos para construir uma carreira sólida e estável. Está na hora de aprender com um clássico que atravessou gerações.
+📘 *O Homem Mais Rico da Babilônia*  
+Autor: George S. Clason  
 
-        📚 **Este é um LIVRO, não um curso caro.**
-        Em **"O Homem Mais Rico da Babilônia"**, George S. Clason revela lições atemporais sobre como economizar, investir e alcançar independência financeira, usando histórias simples e poderosas. E o que isso tem a ver com programação? Tudo.
+💡 Aprenda os fundamentos da riqueza e aplique no seu crescimento como dev. Entenda como investir no seu conhecimento e colher resultados reais.  
 
-        💡 **Descubra os segredos para investir no seu conhecimento.** Dedique-se aos fundamentos da programação, invista em projetos pessoais e construa um portfólio que gere retorno a longo prazo.
+🔗 [Garanta o seu agora na Amazon!](https://amzn.to/3WYYy4p)  
+🖼️ Imagem: https://cdn.discordapp.com/attachments/1338990204870201436/1339001041366024193/99d43d0914919e0b30dfba93c21829fa.jpg?ex=67ad2165&is=67abcfe5&hm=023d13b31601dc3eba62f129b9c97af2ed1bef7ef44d0cbbce3d1215f2052726&  
 
-        📌 **Transforme sua relação com sua carreira. Comece com pequenos passos, como aprender algoritmos e resolver problemas práticos, e veja grandes resultados em oportunidades e salários.**
-        👉 [Garanta o seu agora na Amazon!](https://amzn.to/3WYYy4p)
-
-        **A sabedoria para criar uma carreira de sucesso está ao seu alcance. Aproveite!** (https://cdn.discordapp.com/attachments/1338990204870201436/1339001041366024193/99d43d0914919e0b30dfba93c21829fa.jpg?ex=67ad2165&is=67abcfe5&hm=023d13b31601dc3eba62f129b9c97af2ed1bef7ef44d0cbbce3d1215f2052726&)`
+**Invista na sua mente antes de qualquer coisa.**`
     },
 
     {
         canal: process.env.CANAL_LIVRO,
-        horario: "15 18 * * 3", // Segunda-feira às 18:15
-        mensagem: `🛑 **Você já parou para pensar no impacto da gratidão na sua jornada como programador?**
+        horario: "15 8 * * 3", // Segunda-feira às 8:15
+        mensagem: `🙏 **A gratidão pode acelerar sua evolução como programador.**  
 
-            Em um mundo cheio de desafios e frustrações, como bugs intermináveis e código que não funciona, encontrar motivos para agradecer pode parecer difícil. Mas e se mudar sua perspectiva pudesse transformar sua carreira e aprendizado?
+📘 *#Um Dia Sem Reclamar*  
+Autores: Davi Lago e Marcelo Galuppo  
 
-            📚 **Este é um LIVRO, não um curso caro.**
-            Em **"#Um Dia Sem Reclamar"**, Davi Lago e Marcelo Galuppo mostram como a gratidão pode trazer mais felicidade, melhorar relacionamentos e até aumentar sua produtividade. E na programação, a gratidão por pequenos avanços pode ser a chave para evoluir.
+💡 Em vez de focar no que dá errado, celebre cada linha que funciona. Gratidão muda seu foco e multiplica sua motivação.  
 
-            💡 **Descubra como a gratidão pode mudar sua mentalidade e resultados.** Seja grato pelo aprendizado, mesmo que ele venha de erros e desafios, e veja como isso pode acelerar sua evolução na carreira.
+🔗 [Garanta o seu agora na Amazon!](https://amzn.to/41cbXIW)  
+🖼️ Imagem: https://cdn.discordapp.com/attachments/1338990204870201436/1339001130625011884/ff4802eaf403a340da1654c421b4cf36.jpg?ex=67ad217a&is=67abcffa&hm=a2871fd8d0c0fbd75fa2166c165ea8be7e848b3ef13d2940e6fa1fe70c78fe66&  
 
-            📌 **Comece com pequenos passos, como comemorar cada código que funciona, e veja grandes transformações na sua motivação e desempenho.**
-            👉 [Garanta o seu agora na Amazon!](https://amzn.to/41cbXIW)
-
-            **Adote a gratidão como hábito e veja como isso pode transformar sua jornada na programação!***(https://cdn.discordapp.com/attachments/1338990204870201436/1339001130625011884/ff4802eaf403a340da1654c421b4cf36.jpg?ex=67ad217a&is=67abcffa&hm=a2871fd8d0c0fbd75fa2166c165ea8be7e848b3ef13d2940e6fa1fe70c78fe66&)`
+**Você progride mais quando reconhece o valor de cada passo.**`
     },
     {
         canal: process.env.CANAL_LIVRO,
-        horario: "15 18 * * 4", // Segunda-feira às 18:15
-        mensagem: `🛑 **Você vive preso à validação do seu código pelos outros?**
+        horario: "15 8 * * 4", // Segunda-feira às 8:15
+        mensagem: `⚡ **Você está programando para agradar os outros ou para evoluir de verdade?**  
 
-            Como programadores iniciantes, é comum ficarmos dependentes da aprovação dos colegas ou até de tutoriais para avançar. Mas o que aconteceria se você tivesse a coragem de escrever, errar e aprender por conta própria?
+📘 *A Coragem de Não Agradar*  
+Autores: Ichiro Kishimi e Fumitake Koga  
 
-            📚 **Este é um LIVRO, não um curso caro.**
-            Em **"A Coragem de Não Agradar"**, Ichiro Kishimi e Fumitake Koga mostram como se libertar da opinião alheia e tomar controle do próprio caminho. Assim como na programação, você precisa superar o medo de críticas e confiar no seu aprendizado.
+💡 Liberte-se da dependência de aprovação. Aprenda a escrever, errar e crescer com confiança e autonomia.  
 
-            💡 **Descubra como tomar o controle da sua evolução como programador.** Este livro te ajuda a entender que você não precisa agradar a todos ou escrever o código perfeito para crescer.
+🔗 [Garanta o seu agora na Amazon!](https://amzn.to/42SJpFA)  
+🖼️ Imagem: https://cdn.discordapp.com/attachments/1338990204870201436/1339001240557846579/b64110965fc784d955efd84ecabc0f4f.jpg?ex=67ad2195&is=67abd015&hm=ec4dd047e7d2f608d675c65831352a316db805f79e1aa53687e3387055b46e11&  
 
-            📌 **Encontre a liberdade de aprender, errar e se desenvolver no seu ritmo.**
-            👉 [Garanta o seu agora na Amazon!](https://amzn.to/42SJpFA)
-
-            **Liberte-se do medo de errar e progrida com autenticidade e confiança!**(https://cdn.discordapp.com/attachments/1338990204870201436/1339001240557846579/b64110965fc784d955efd84ecabc0f4f.jpg?ex=67ad2195&is=67abd015&hm=ec4dd047e7d2f608d675c65831352a316db805f79e1aa53687e3387055b46e11&)`
+**Cresça no seu ritmo. Seja fiel ao seu processo.**`
     },
     {
         canal: process.env.CANAL_LIVRO,
@@ -91,24 +89,21 @@ const mensagensAgendadas = [
     },
     {
         canal: process.env.CANAL_LIVRO,
-        horario: "15 18 * * 6", // Segunda-feira às 18:15
-        mensagem: `🛑 **Você sabe como construir conexões reais no mundo da programação?**
+        horario: "15 8 * * 6", // Segunda-feira às 8:15
+        mensagem: `🧠 **Suas decisões de hoje moldam sua carreira na programação.**  
 
-            Seja no trabalho, na comunidade de desenvolvedores ou em entrevistas, suas habilidades de comunicação podem ser o diferencial para conquistar oportunidades. E se você pudesse aprender os segredos para se destacar e criar impacto?
+📘 *A Psicologia Financeira*  
+Autor: Morgan Housel  
 
-            📚 **Este é um LIVRO, não um curso caro.**
-            Em **"Como Fazer Amigos e Influenciar Pessoas"**, Dale Carnegie ensina princípios atemporais que ajudam a criar conexões genuínas, melhorar a colaboração em equipe e se tornar um profissional admirado.
+💡 Programar bem é sobre escolhas inteligentes — no código, na rotina e nas finanças. Aprenda como atitudes simples constroem resultados extraordinários.  
 
-            💡 **Transforme suas interações no ambiente de tecnologia.** Desde entrevistas até projetos colaborativos, os ensinamentos deste clássico podem te ajudar a se destacar no mercado.
+🔗 [Garanta o seu agora na Amazon!](https://amzn.to/4jQe1NP)  
 
-            📌 **Invista em habilidades que farão a diferença na sua carreira.**
-            👉 [Garanta o seu agora na Amazon!](https://amzn.to/4hR1mZi)
-
-            **Aprenda a influenciar positivamente no mundo da programação e alcance seus objetivos. Comece agora!**`
+**O segredo não está no recurso, mas em como você usa.**`
     },
     {
         canal: process.env.CANAL_LIVRO,
-        horario: "15 18 * * 0", // Segunda-feira às 18:15
+        horario: "15 8 * * 0", // Segunda-feira às 8:15
         mensagem: `🛑 **Você sente que explicar seu código ou projetos é um desafio intransponível?**
 
             Muitos desenvolvedores travam ao apresentar ideias ou defender projetos, perdendo oportunidades de se destacar em reuniões, entrevistas ou eventos. Mas e se você pudesse aprender a comunicar suas ideias técnicas com clareza e confiança?
