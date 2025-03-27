@@ -252,132 +252,45 @@ const mensagensAgendadas = [
     },
     {
         canal: process.env.CANAL_VAGA,
-        horario: "15 13 * * 1", // Segunda-feira às 18:15
+        horario: "15 18 * * *", // Segunda-feira às 18:15
         mensagem: `
-            🚀 **Oportunidade para Cloud Security Engineer!**  
+              💻 **Estágio em Segurança da Informação**
 
-            📍 **Formato:** *100% Remoto*  
-            💼 **Nível:** *Pleno*  
-            🕒 **Jornada:** *Full-Time (PJ)*  
-            💰 **Faixa Salarial:** *Negociável*  
+📍 Formato: 100% Remoto  
+🎓 Nível: Estágio  
+📅 Jornada: Parcial (compatível com ensino superior)
 
-            ## 📋 **Requisitos:**  
-            ✅ Querer atuar como **Engenheiro de Cloud Security**.  
-            ✅ Ser uma pessoa curiosa, gostar de desafios e ter vontade de aprender.  
-            ✅ Experiência como **Analista de Segurança da Informação** ou **Cybersecurity**.  
-            ✅ Experiência com **práticas e ferramentas de segurança** em ambientes **Cloud**.  
-            ✅ Experiência com **provedores de nuvem** (*AWS, Azure, Google Cloud*).  
-            ✅ Conhecimento básico de **CI/CD, contêineres e orquestração** (*GitLab, GitHub, Terraform, Docker, Kubernetes*).  
-            ✅ Habilidades em **resolução de problemas, trabalho em equipe e comunicação**.  
+## 📋 Requisitos:
+- Estar cursando *Sistemas de Informação, Ciência da Computação, Segurança da Informação* ou áreas correlatas;  
+- Boa capacidade de comunicação escrita e verbal;  
+- Facilidade para trabalhar em equipe e vontade de aprender.
 
-            ## 🏆 **Diferenciais:**  
-            ⭐ Certificações em **AWS, Azure ou Google Cloud**.  
-            ⭐ Formação em *Ciência da Computação, Sistemas ou Engenharia da Computação*.  
-            ⭐ Noções de programação.  
-            ⭐ Experiência com sistemas de monitoramento como **SIEM, Grafana ou similares**.  
+📩 Candidatar-se no link:  
+🔗 https://cortex.gupy.io/jobs/8842047
 
-            ## 🚀 **Benefícios:**  
-            ✅ **Horário Flexível**.  
-            ✅ **Parceria com Alura**.  
-            ✅ **30 dias de férias remuneradas**.  
-            ✅ **G4 Skills**.  
-
-            📩 **Candidatar-se no link:**  
-            🔗 [Inscrição](https://coodesh.com/jobs/cloud-security-engineer-182436615)  
-
-            ✨ *Essa vaga foi compartilhada pela comunidade **Quintino Coders!***  
+✨ *Essa oportunidade foi compartilhada pela comunidade **Quintino Coders!***  
+🚀 Entre no nosso Discord para mais vagas, conteúdos e apoio para sua carreira em tecnologia!
             `
     },
     {
         canal: process.env.CANAL_VAGA,
-        horario: "15 13 * * 1", // Segunda-feira às 18:15
+        horario: "15 8 * * *", // Segunda-feira às 18:15
         mensagem: `
-            🚀 **Oportunidade Java!**  
+            💻 **Estágio em Desenvolvimento de Software**
 
-            💻 **Desenvolvedor Web Java Sênior (Java, Quarkus, Angular)**  
-            📆 *Projeto de 5 meses*  
-            🌍 *100% remoto*  
+📍 Formato: 100% Remoto  
+🎓 Nível: Estágio  
+📅 Jornada: Parcial (compatível com ensino superior)
 
-            ## 🔹 **Experiência Necessária:**  
-            Mínimo de **5+ anos** com desenvolvimento web utilizando:  
-            - *Java 11 ou superior*  
-            - *Quarkus*  
-            - *Angular 12*  
-            - *Git*  
+## 👀 Quem buscamos?
+Estudantes apaixonados por **tecnologia e inovação**, que queiram aprender e crescer em um ambiente desafiador.  
+Se você é **curioso, proativo** e gosta de resolver problemas, essa vaga pode ser perfeita pra você!
 
-            ## 🔹 **Principais Responsabilidades:**  
-            - Desenvolver e manter aplicações web robustas e escaláveis utilizando **Java 11+** e **Quarkus**.  
-            - Criar interfaces dinâmicas e responsivas com **Angular 12**.  
-            - Colaborar com equipes multidisciplinares para integrar soluções entre **front-end** e **back-end**.  
-            - Otimizar código e resolver problemas de performance garantindo eficiência das aplicações.  
-            - Implementar e gerenciar o controle de versionamento utilizando **Git**.  
-            - _(Desejável)_ Contribuir com aplicações mobile usando **Ionic 3** e atuar com **scripts PL/SQL** para integrações.  
+📩 Envie seu **currículo e histórico escolar** para:  
+✉️ rh@intuitivecare.com
 
-            ## 🔹 **Requisitos Técnicos:**  
-
-            ✅ **Obrigatórios:**  
-            - *Java 11 ou superior*  
-            - *Quarkus*  
-            - *Angular 12*  
-            - *Git*  
-
-            ⭐ **Diferenciais (Desejáveis):**  
-            - *Ionic 3*  
-            - *PL/SQL*  
-            - *Python*  
-            - *Kafka*  
-            - *Jenkins*  
-
-            ## 🔹 **Habilidades Pessoais:**  
-            - Boa comunicação e capacidade de trabalhar em equipe.  
-            - Proatividade e atenção aos detalhes.  
-            - Capacidade de identificar e resolver problemas de performance.  
-            - Independência e cumprimento de prazos.  
-
-            ## 🔹 **Educação:**  
-            - Graduação em *Ciência da Computação, Engenharia de Software, Sistemas de Informação* ou áreas correlatas.  
-
-            ## 🔹 **Diferenciais:**  
-            - Certificações Java ou frameworks correlatos.  
-            - Conhecimento em *Scrum, Kanban* e práticas de *DevOps*.  
-
-            📩 **Envie seu currículo ou indique um amigo:**  
-            ✉️ **alexandre.sa@blendit.com**  
-            📲 **(21) 99586-4554** (WhatsApp)  
-
-            ✨ *Essa vaga foi compartilhada pela comunidade **Quintino Coders!***  
-            `
-    },
-
-    {
-        canal: process.env.CANAL_VAGA,
-        horario: "15 13 * * 2", // Segunda-feira às 18:15
-        mensagem:  `
-            🌟 **Oportunidade para Consultores SAP!**
-
-            A **GET Italent Consultoria** está buscando talentos para integrar seu time! Se você tem experiência em SAP e quer crescer em um ambiente dinâmico e desafiador, confira as vagas disponíveis:
-
-            📌 **Vagas Abertas:**
-            ☁️ *Analista de Cloud ALM SAP*
-            💻 *Consultor Sênior Basis*
-            🚀 *Consultor Sênior BTP*
-            🔗 *Consultor Sênior CPI*
-            🛡️ *Consultor Sênior GRC*
-            🌤️ *ABAP Cloud*
-            📊 *Consultor Sênior Analytics*
-
-            📍 **Local:** *Presencial - Pinheiros*
-            📆 **Duração do Projeto:** *1 ano*
-            🕐 **Disponibilidade:** *Imediata*
-
-            📩 **Envie seu currículo com pretensão salarial para:**  
-            eliane.fontana@getitalent.com.br
-
-            📢 *Indicações são bem-vindas!*  
-
-            🚀 **Não perca essa oportunidade de impulsionar sua carreira!**
-
-            ✨ *Essa vaga foi compartilhada pela comunidade **Quintino Coders!***  
+✨ *Essa oportunidade foi compartilhada pela comunidade **Quintino Coders!***  
+🚀 Entre no nosso Discord para mais vagas, conteúdos e apoio para sua carreira em tecnologia!  
             `
     },
 
@@ -399,6 +312,7 @@ const mensagensAgendadas = [
 
             **O futuro pertence a quem domina a IA. Não perca essa chance!**`
     },
+
     {
         canal: process.env.CANAL_CURSOS,
         horario: "15 20 * * 2", // Segunda-feira às 18:15
